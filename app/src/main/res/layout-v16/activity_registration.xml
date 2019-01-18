@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_of_app"
+    tools:context=".Registration">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="40sp"
+            android:fontFamily="@font/roboto_light"
+            android:hint="Имя"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/namess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="40sp"
+            android:fontFamily="@font/roboto_light"
+            android:hint="E-mail"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/emailss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="40sp"
+            android:fontFamily="@font/roboto_light"
+            android:hint="Пароль"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/passNewss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/createNewUserss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_gradient"
+            android:fontFamily="@font/roboto_light"
+            android:padding="24dp"
+            android:text="Зарегистрироваться"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

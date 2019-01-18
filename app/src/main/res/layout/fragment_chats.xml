@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_of_app"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Chats">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="32dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/download"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="16dp"
+            android:layout_weight="50"
+            android:background="#FFFFFF"
+            android:elevation="10dp"
+            android:translationZ="10dp"
+            app:cardCornerRadius="32dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_margin="32dp"
+                android:translationX="120dp"
+                app:srcCompat="@drawable/ic_folder_white_shape" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/roboto_light"
+                android:padding="32dp"
+                android:text="Внутреннее хранилище"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/choose"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="16dp"
+            android:layout_weight="50"
+            android:background="#FFFFFF"
+            android:elevation="10dp"
+            android:translationZ="10dp"
+            app:cardCornerRadius="32dp">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_margin="32dp"
+                android:translationX="120dp"
+                app:srcCompat="@drawable/ic_cloud_computing" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/roboto_light"
+                android:padding="32dp"
+                android:text="Облако"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</FrameLayout>

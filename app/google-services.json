@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "770236315170",
+    "firebase_url": "https://gamehack-79e25.firebaseio.com",
+    "project_id": "gamehack-79e25",
+    "storage_bucket": "gamehack-79e25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770236315170:android:48017647550b5555",
+        "android_client_info": {
+          "package_name": "com.messenger.my.messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770236315170-eap81bm38pd9kdmun48opvoc06jd45u3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.messenger.my.messenger",
+            "certificate_hash": "78a7a2c4b0051114156640c907916bf1de14480c"
+          }
+        },
+        {
+          "client_id": "770236315170-d24p618io8h5oth0lucrjkk4o8oka2o8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByra5_YJG8sxKSszW2NTYwpbBDaglII-0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770236315170-d24p618io8h5oth0lucrjkk4o8oka2o8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
