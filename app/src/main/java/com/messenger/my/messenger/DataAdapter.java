@@ -1,9 +1,11 @@
 package com.messenger.my.messenger;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
 import android.support.annotation.RequiresApi;
 import android.support.v4.app.Fragment;
@@ -122,14 +124,33 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.ViewHolder> {
                     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
                     @Override
                     public void onClick(View v) {
-                        Fragment fragment = new AboutBook();
-                        FragmentTransaction fragmentManager = book.getActivity().getSupportFragmentManager().beginTransaction();
-                        fragmentManager.replace(R.id.container, fragment).commit();
+                        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(book.getContext());
+                        Boolean bool = preferences.getBoolean("DownloadingOfBook", false);
+                        if(!bool) {
 
-                        Bundle bundle = new Bundle();
-                        String valueOfReplace = Integer.toString(book.getArrayList().get(viewHolder.getAdapterPosition()));
-                        bundle.putString("Value", valueOfReplace);
-                        fragment.setArguments(bundle);
+
+                            Fragment fragment = new AboutBook();
+                            FragmentTransaction fragmentManager = book.getActivity().getSupportFragmentManager().beginTransaction();
+                            fragmentManager.replace(R.id.container, fragment).commit();
+
+
+                            Bundle bundle = new Bundle();
+                            String valueOfReplace = Integer.toString(book.getArrayList().get(viewHolder.getAdapterPosition()));
+                            bundle.putString("Value", valueOfReplace);
+                            fragment.setArguments(bundle);
+                        }
+
+                        else{
+                            Fragment fragment = new Test();
+                            FragmentTransaction fragmentManager = book.getActivity().getSupportFragmentManager().beginTransaction();
+                            fragmentManager.replace(R.id.container2, fragment).commit();
+
+                            Bundle bundle = new Bundle();
+                            String valueOfReplace = Integer.toString(book.getArrayList().get(viewHolder.getAdapterPosition()));
+                            bundle.putString("Value", valueOfReplace);
+                            fragment.setArguments(bundle);
+
+                        }
                     }
                 });
             } else {

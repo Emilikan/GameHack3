@@ -1,6 +1,8 @@
 package com.messenger.my.messenger;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -389,4 +391,12 @@ public class DownloadFromCloud extends Fragment {
     }
 
 
+    public void onDetach() {
+        super.onDetach();
+
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getContext());
+        SharedPreferences.Editor editor = preferences.edit();
+        editor.putBoolean("DownloadingOfBook", false);
+        editor.apply();
+    }
 }
