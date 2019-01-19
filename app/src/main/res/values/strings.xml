@@ -18,5 +18,9 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+<<<<<<< HEAD
     <string name="title_activity_main2">Main2Activity</string>
+=======
+    <string name="title_activity_sign_in_teach">SignInTeach</string>
+>>>>>>> 75a9d956068c1e8d1acb0c4739aa368cc5c75a97
 </resources>

@@ -16,6 +16,7 @@ public class Registration extends AppCompatActivity {
     EditText mName;
     EditText mLog;
     EditText mPass;
+    EditText mClass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +26,7 @@ public class Registration extends AppCompatActivity {
         mName = findViewById(R.id.namess);
         mLog = findViewById(R.id.emailss);
         mPass = findViewById(R.id.passNewss);
+        mClass = findViewById(R.id.classM);
 
         // продолжить
         Button next = findViewById(R.id.createNewUserss);
@@ -32,7 +34,7 @@ public class Registration extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // сохраняем значения для след активити
-                if(mPass.getText().toString().equals("") || mLog.getText().toString().equals("") || mName.getText().toString().equals("")){
+                if(mPass.getText().toString().equals("") || mLog.getText().toString().equals("") || mName.getText().toString().equals("") || mClass.getText().toString().equals("")){
                     AlertDialog.Builder builder = new AlertDialog.Builder(Registration.this);
                     builder.setTitle("Error")
                             .setMessage("Поля ввода не заполненно")
@@ -52,6 +54,7 @@ public class Registration extends AppCompatActivity {
                     editor.putString("log", mLog.getText().toString().trim());
                     editor.putString("name", mName.getText().toString().trim());
                     editor.putString("pass", mPass.getText().toString().trim());
+                    editor.putString("class", mClass.getText().toString().trim());
                     editor.apply();
 
                     Intent intent = new Intent(Registration.this, CheckEmail.class);

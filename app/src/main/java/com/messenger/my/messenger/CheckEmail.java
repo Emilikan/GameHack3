@@ -31,13 +31,14 @@ public class CheckEmail extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private FirebaseUser mUser;
     private FirebaseAuth.AuthStateListener mAuthStateListener;
-    DatabaseReference mRef = FirebaseDatabase.getInstance().getReference();
+    private DatabaseReference mRef = FirebaseDatabase.getInstance().getReference();
 
     FirebaseUser user;
 
     private String email;
     private String pass;
     private String name;
+    private String mClass;
     private String mKod;
 
     private EditText mKodET;
@@ -54,6 +55,7 @@ public class CheckEmail extends AppCompatActivity {
         email = preferences.getString("log", null);
         pass = preferences.getString("pass", null);
         name = preferences.getString("name", null);
+        mClass = preferences.getString("class", null);
 
 
         mKodET = findViewById(R.id.kodForEmail);
@@ -69,6 +71,7 @@ public class CheckEmail extends AppCompatActivity {
                     Intent intent = new Intent(CheckEmail.this, MainActivity.class);
                     startActivity(intent);
 
+                    Toast.makeText(CheckEmail.this, "gh", Toast.LENGTH_SHORT).show();
                     SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(CheckEmail.this);
                     SharedPreferences.Editor editor = preferences.edit();
                     editor.putString("userUid", user.getUid() + "");
@@ -81,9 +84,21 @@ public class CheckEmail extends AppCompatActivity {
                         public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                             Toast.makeText(CheckEmail.this, user.getUid() + "", Toast.LENGTH_SHORT).show();
 
-                            mRef.child(user.getUid()).child("Profile").child("Name").setValue(name);
-                            mRef.child(user.getUid()).child("Profile").child("Email").setValue(email);
-                            mRef.child(user.getUid()).child("Profile").child("Points").setValue("0");
+                            SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(CheckEmail.this);
+                            SharedPreferences.Editor editor = preferences.edit();
+                            editor.putString("userUid", user.getUid() + "");
+                            editor.apply();
+
+                            String mCount = dataSnapshot.child("Schools").child(mClass).child("counterOfUsers").getValue(String.class);
+                            assert mCount != null;
+                            int co = Integer.parseInt(mCount);
+                            co++;
+                            mCount = Integer.toString(co);
+
+                            mRef.child("Schools").child(mClass).child(mCount).child("Profile").child("Name").setValue(name);
+                            mRef.child("Schools").child(mClass).child(mCount).child("Profile").child("Email").setValue(email);
+                            mRef.child("Schools").child(mClass).child(mCount).child("Uid").setValue(user.getUid() + "");
+                            mRef.child("Schools").child(mClass).child("counterOfUsers").setValue(mCount);
 
                         }
                         @RequiresApi(api = Build.VERSION_CODES.KITKAT)
@@ -150,7 +165,7 @@ public class CheckEmail extends AppCompatActivity {
         signIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(email == null || pass == null || name == null || mKod == null){
+                if(email == null || pass == null || name == null || mKod == null || mClass == null){
                     AlertDialog.Builder builder = new AlertDialog.Builder(CheckEmail.this);
                     builder.setTitle("Error")
                             .setMessage("Ошибка в передачи данных")
@@ -213,21 +228,30 @@ public class CheckEmail extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
 
-        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(CheckEmail.this);
-        SharedPreferences.Editor editor = preferences.edit();
-        editor.putString("userUid", user.getUid() + "");
-        editor.apply();
-
         final FirebaseUser user = mAuth.getCurrentUser();
         mRef.addListenerForSingleValueEvent(new ValueEventListener() {
             @RequiresApi(api = Build.VERSION_CODES.KITKAT)
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if(user != null) {
-                    Toast.makeText(CheckEmail.this, user.getUid() + "", Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(CheckEmail.this, user.getUid() + "", Toast.LENGTH_SHORT).show();
 
-                    mRef.child(user.getUid()).child("Profile").child("Name").setValue(name);
-                    mRef.child(user.getUid()).child("Profile").child("Email").setValue(email);
+                    SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(CheckEmail.this);
+                    SharedPreferences.Editor editor = preferences.edit();
+                    editor.putString("userUid", user.getUid() + "");
+                    editor.apply();
+
+                    String mCount = dataSnapshot.child("Schools").child(mClass).child("counterOfUsers").getValue(String.class);
+                    assert mCount != null;
+                    int co = Integer.parseInt(mCount);
+                    co++;
+                    mCount = Integer.toString(co);
+
+                    mRef.child("Schools").child(mClass).child(mCount).child("Profile").child("Name").setValue(name);
+                    mRef.child("Schools").child(mClass).child(mCount).child("Profile").child("Email").setValue(email);
+                    mRef.child("Schools").child(mClass).child(mCount).child("Uid").setValue(user.getUid() + "");
+                    mRef.child("Schools").child(mClass).child("counterOfUsers").setValue(mCount);
+
                 }
                 else {
                     Toast.makeText(CheckEmail.this, "Ошибка авторизации", Toast.LENGTH_SHORT).show();
