@@ -16,19 +16,12 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Build;
-import android.os.Bundle;
 import android.os.Environment;
 import android.preference.PreferenceManager;
-import android.support.annotation.NonNull;
 import android.support.annotation.RequiresApi;
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AlertDialog;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -63,15 +56,11 @@ public class AboutBook extends Fragment {
     private TextView mYear2;
     private TextView mDescribing;
     private ImageView imageView;
-    private FrameLayout frameLayout;
-    private Button upload2;
 
     public String counterOfFragment;
     private Uri pdfFilePath = null;
 
     private ProgressBar progressBar;
-
-    private DatabaseReference mRef;
 
 
     @Override
@@ -119,7 +108,6 @@ public class AboutBook extends Fragment {
                 counterOfFragment = bundle.getString("Value", "0");
             }
 
-            frameLayout = rootView.findViewById(R.id.aboutBook);
             imageView = rootView.findViewById(R.id.imageView3);
             mPart2 = rootView.findViewById(R.id.Part2);
             mAuthor2 = rootView.findViewById(R.id.Author2);
@@ -127,7 +115,7 @@ public class AboutBook extends Fragment {
             mDescribing = rootView.findViewById(R.id.describingAboutBook);
             mClass2 = rootView.findViewById(R.id.Class2);
             mYear2 = rootView.findViewById(R.id.Year2);
-            upload2 = rootView.findViewById(R.id.upload2);
+            Button upload2 = rootView.findViewById(R.id.upload2);
             ImageView back = rootView.findViewById(R.id.back2);
 
             // кнопка скачать книгу
@@ -313,7 +301,7 @@ public class AboutBook extends Fragment {
     // изменяем текст на тот, который получили из бд
     @SuppressLint("WrongViewCast")
     public void changeText() {
-        mRef = FirebaseDatabase.getInstance().getReference();
+        DatabaseReference mRef = FirebaseDatabase.getInstance().getReference();
         mRef.addValueEventListener(new ValueEventListener() {
             @RequiresApi(api = Build.VERSION_CODES.KITKAT)
             @SuppressLint("SetTextI18n")

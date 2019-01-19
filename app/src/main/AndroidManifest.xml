@@ -21,7 +21,8 @@
         </activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".Registration" />
-        <activity android:name=".CheckEmail"></activity>
+        <activity android:name=".CheckEmail" />
+        <activity android:name=".SignInTeach"></activity>
     </application>
 
 </manifest>

@@ -17,7 +17,6 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import java.util.concurrent.Executor;
 
 public class Authorizatoin extends AppCompatActivity {
 
@@ -67,6 +66,15 @@ public class Authorizatoin extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Authorizatoin.this, Registration.class);
+                startActivity(intent);
+            }
+        });
+
+        Button signInTeachers = findViewById(R.id.singInTeacher);
+        signInTeachers.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Authorizatoin.this, SignInTeach.class);
                 startActivity(intent);
             }
         });

@@ -171,6 +171,19 @@
                     android:text="Зарегестрироваться"
                     android:textColor="#FFFFFF"
                     android:textSize="16sp" />
+                <Button
+                    android:id="@+id/singInTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40sp"
+                    android:layout_marginRight="40sp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/roboto_light"
+                    android:text="Войти как учитель"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
 
             </LinearLayout>
         </ScrollView>
