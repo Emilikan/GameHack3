@@ -20,7 +20,7 @@ import java.util.Objects;
 
 public class Test extends Fragment {
 
-    EditText mName, mSub, mBook, mPage;
+    EditText mName, mSub, mPage;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -39,7 +39,6 @@ public class Test extends Fragment {
         }
 
         mName = rootView.findViewById(R.id.name);
-        mBook = rootView.findViewById(R.id.book);
         mPage = rootView.findViewById(R.id.page);
         mSub = rootView.findViewById(R.id.subject);
 
@@ -53,7 +52,6 @@ public class Test extends Fragment {
                 SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getContext());
                 SharedPreferences.Editor editor = preferences.edit();
                 editor.putString("TeachersTestName", mName.getText().toString().trim());
-                editor.putString("TeachersTestBook", mBook.getText().toString().trim());
                 editor.putString("TeachersTestPage", mPage.getText().toString().trim());
                 editor.putString("TeachersTestSubject", mSub.getText().toString().trim());
                 editor.apply();
