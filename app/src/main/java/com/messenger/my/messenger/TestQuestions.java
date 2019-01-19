@@ -73,9 +73,9 @@ public class TestQuestions extends Fragment {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
 
-                        mRef.child("Books").child("0").child("Tests").child(counter.toString()).child("Answer").setValue(answer);
-                        mRef.child("Books").child("0").child("Tests").child(counter.toString()).child("Question").setValue(question);
-                        mRef.child("Books").child("0").child("Tests").child(counter.toString()).child("counter").setValue(counter);
+                        mRef.child("Books").child(counterOfFragment).child("Tests").child(counter.toString()).child("Answer").setValue(answer);
+                        mRef.child("Books").child(counterOfFragment).child("Tests").child(counter.toString()).child("Question").setValue(question);
+                        mRef.child("Books").child(counterOfFragment).child("Tests").child(counter.toString()).child("counter").setValue(counter);
 
                     }
                     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
