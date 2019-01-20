@@ -85,10 +85,6 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.library) {
             fragmentClass = Chats.class;
-        } else if (id == R.id.settings) {
-            fragmentClass = Settings.class;
-        } else if (id == R.id.feedback){
-            fragmentClass = Send.class;
         } else if (id == R.id.profile){
             fragmentClass = Profile.class;
         } else if (id == R.id.tasks){

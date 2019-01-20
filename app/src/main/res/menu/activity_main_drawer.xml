@@ -28,19 +28,6 @@
             android:id="@+id/battles"
             android:icon="@drawable/battles"
             android:title="Сражения" />
-        <item
-            android:id="@+id/settings"
-            android:icon="@drawable/controls"
-            android:title="Настройки" />
     </group>
-
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/feedback"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Обратная связь" />
-        </menu>
-    </item>
 
 </menu>

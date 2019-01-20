@@ -1215,7 +1215,6 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fab
-id feedback
 id fffdf
 id fill
 id fill_horizontal
@@ -1283,8 +1282,6 @@ id nameOfSchool
 id namess
 id nav_map
 id nav_result
-id nav_send
-id nav_share
 id nav_test
 id nav_view
 id navigation
@@ -1356,7 +1353,6 @@ id select_dialog_listview
 id selected
 id sendEmail
 id server
-id settings
 id shortcut
 id showCustom
 id showHome
