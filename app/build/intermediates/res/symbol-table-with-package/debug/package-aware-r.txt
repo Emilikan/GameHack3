@@ -1182,6 +1182,8 @@ id createNewUserss
 id custom
 id customPanel
 id dark
+id dateBD
+id dateMMM
 id decor_content_parent
 id default_activity_button
 id describingAboutBook
@@ -1254,6 +1256,7 @@ id listMode
 id listText
 id list_item
 id login
+id mDate
 id masked
 id masters
 id media_actions
@@ -1283,6 +1286,9 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id number1
+id number2
+id number3
 id outline
 id packed
 id page
@@ -1405,6 +1411,7 @@ id useLogo
 id view_offset_helper
 id visible
 id wide
+id winBD
 id withText
 id wrap
 id wrap_content
@@ -1487,6 +1494,7 @@ layout fragment_download_from_cloud
 layout fragment_home
 layout fragment_profile
 layout fragment_result
+layout fragment_result_user
 layout fragment_send
 layout fragment_settings
 layout fragment_storage

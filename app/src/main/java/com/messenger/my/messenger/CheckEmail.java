@@ -239,7 +239,7 @@ public class CheckEmail extends AppCompatActivity {
                     SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(CheckEmail.this);
                     SharedPreferences.Editor editor = preferences.edit();
                     editor.putString("userUid", user.getUid() + "");
-                    editor.apply();
+
 
                     String mCount = dataSnapshot.child("Schools").child(mClass).child("counterOfUsers").getValue(String.class);
                     assert mCount != null;
@@ -251,6 +251,11 @@ public class CheckEmail extends AppCompatActivity {
                     mRef.child("Schools").child(mClass).child(mCount).child("Profile").child("Email").setValue(email);
                     mRef.child("Schools").child(mClass).child(mCount).child("Uid").setValue(user.getUid() + "");
                     mRef.child("Schools").child(mClass).child("counterOfUsers").setValue(mCount);
+
+                    editor.putString("log", null);
+                    editor.putString("name", null);
+                    editor.putString("pass", null);
+                    editor.apply();
 
                 }
                 else {
@@ -293,6 +298,8 @@ public class CheckEmail extends AppCompatActivity {
 
                             mRef.child(user.getUid()).child("Profile").child("Name").setValue(name);
                             mRef.child(user.getUid()).child("Profile").child("Email").setValue(email);
+
+
 
                         }
 

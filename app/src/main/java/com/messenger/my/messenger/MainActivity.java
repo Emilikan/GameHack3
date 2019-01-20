@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.profile){
             fragmentClass = Profile.class;
         } else if (id == R.id.tasks){
-            fragmentClass = Tasks.class;
+            fragmentClass = ResultUser.class;
         } else if (id == R.id.masters){
             fragmentClass = WorkRoom.class;
         } else if (id == R.id.battles){

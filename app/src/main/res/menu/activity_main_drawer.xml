@@ -19,7 +19,7 @@
         <item
             android:id="@+id/tasks"
             android:icon="@drawable/list"
-            android:title="Текущие задачи" />
+            android:title="Результаты" />
         <item
             android:id="@+id/masters"
             android:icon="@drawable/work_room"

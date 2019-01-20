@@ -1,4 +1,4 @@
-#Sun Jan 20 03:27:28 MSK 2019
+#Sun Jan 20 11:10:46 MSK 2019
 base.0=/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/transforms/dexMerger/debug/7
 path.0=classes.dex
 renamed.0=classes.dex
