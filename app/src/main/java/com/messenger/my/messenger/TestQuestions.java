@@ -33,8 +33,8 @@ import java.util.Objects;
 public class TestQuestions extends Fragment {
 
     String counterOfFragment;
-    Integer counter = 1;
-    EditText answer, question;
+    Integer counter = 0;
+    EditText answer, question, falseAnswer1, falseAnswer2, falseAnswer3;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,6 +62,9 @@ public class TestQuestions extends Fragment {
 
                 answer = rootView.findViewById(R.id.answer);
                 question = rootView.findViewById(R.id.question1);
+                falseAnswer1 = rootView.findViewById(R.id.var1);
+                falseAnswer2 = rootView.findViewById(R.id.var2);
+                falseAnswer3 = rootView.findViewById(R.id.var3);
 
 
                 // объявляем переменную
@@ -76,6 +79,9 @@ public class TestQuestions extends Fragment {
                         mRef.child("Books").child(counterOfFragment).child("Tests").child(counter.toString()).child("Answer").setValue(answer);
                         mRef.child("Books").child(counterOfFragment).child("Tests").child(counter.toString()).child("Question").setValue(question);
                         mRef.child("Books").child(counterOfFragment).child("Tests").child(counter.toString()).child("counter").setValue(counter);
+                        mRef.child("Books").child(counterOfFragment).child("Tests").child(counter.toString()).child("FalseAnswer1").setValue(falseAnswer1);
+                        mRef.child("Books").child(counterOfFragment).child("Tests").child(counter.toString()).child("FalseAnswer2").setValue(falseAnswer2);
+                        mRef.child("Books").child(counterOfFragment).child("Tests").child(counter.toString()).child("FalseAnswer3").setValue(falseAnswer3);
 
                     }
                     @RequiresApi(api = Build.VERSION_CODES.KITKAT)

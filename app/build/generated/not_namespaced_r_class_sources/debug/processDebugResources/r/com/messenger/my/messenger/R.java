@@ -5591,13 +5591,16 @@ public final class R {
     public static final int upload=0x7f09012f;
     public static final int upload2=0x7f090130;
     public static final int useLogo=0x7f090131;
-    public static final int view_offset_helper=0x7f090132;
-    public static final int visible=0x7f090133;
-    public static final int wide=0x7f090134;
-    public static final int winBD=0x7f090135;
-    public static final int withText=0x7f090136;
-    public static final int wrap=0x7f090137;
-    public static final int wrap_content=0x7f090138;
+    public static final int var1=0x7f090132;
+    public static final int var2=0x7f090133;
+    public static final int var3=0x7f090134;
+    public static final int view_offset_helper=0x7f090135;
+    public static final int visible=0x7f090136;
+    public static final int wide=0x7f090137;
+    public static final int winBD=0x7f090138;
+    public static final int withText=0x7f090139;
+    public static final int wrap=0x7f09013a;
+    public static final int wrap_content=0x7f09013b;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f0a0000;

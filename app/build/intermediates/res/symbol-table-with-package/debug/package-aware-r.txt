@@ -1408,6 +1408,9 @@ id up
 id upload
 id upload2
 id useLogo
+id var1
+id var2
+id var3
 id view_offset_helper
 id visible
 id wide
