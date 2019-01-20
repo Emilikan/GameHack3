@@ -1,13 +1,12 @@
 package com.messenger.my.messenger;
 
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-
 import android.annotation.SuppressLint;
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -91,7 +90,7 @@ public class Authorizatoin extends AppCompatActivity {
                 if (task.isSuccessful()) {
                     Toast.makeText(Authorizatoin.this, "Авторизация успешна", Toast.LENGTH_LONG).show();
 
-                    Intent intent = new Intent(Authorizatoin.this, Main2Activity.class);
+                    Intent intent = new Intent(Authorizatoin.this, MainActivity.class);
                     startActivity(intent);
 
                 } else {

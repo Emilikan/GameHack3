@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\dansu\\messenger\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\dansu\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\8dcc2b715e73d15c17f58c14341b2f74\\res\\values-v21\\values-v21.xml",
+                    "source": "/home/xacker/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/36c56b071131c8265e754d24a8ea2553/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\dansu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2a6b13dd8bb31af41a32f0f06f716fe1\\res\\values-v21\\values-v21.xml",
+                    "source": "/home/xacker/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/bfb6a03b8c0bacd98801f48ee0f10c75/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,19,20,21,22,24,26,27,28,29,30,32,34,36,38,40,42,43,48,50,52,53,54,56,58,59,60,61,62,63,107,110,154,157,160,162,164,166,169,171,174,175,176,179,180,181,182,183,184,187,188,190,192,194,196,200,202,203,204,205,207,211,213,215,216,217,218,219,221,222,223,233,234,235,247",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -42,26 +42,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\dansu\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\292af83256c2b4809d36c7fea43a3dbd\\res\\values-v21\\values-v21.xml",
-                    "from": {
-                        "startLines": "2,5,8,11",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,223,386,554",
-                        "endLines": "4,7,10,13",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "218,381,549,716"
-                    },
-                    "to": {
-                        "startLines": "270,273,277,281",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "19732,19900,20189,20485",
-                        "endLines": "272,275,279,283",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "19895,20058,20352,20647"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\dansu\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\6a1a710751fcf673c99324eea1e8641a\\res\\values-v21\\values-v21.xml",
+                    "source": "/home/xacker/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/3ac3b1f60785af4c7e168fa3873fccda/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,10,18,26",
                         "startColumns": "4,4,4,4",
@@ -80,14 +61,33 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\dansu\\messenger\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "source": "/home/xacker/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/913edc54c646833ee2ece10659202eb9/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,223,386,554",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "218,381,549,716"
+                    },
+                    "to": {
+                        "startLines": "270,273,277,281",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "19732,19900,20189,20485",
+                        "endLines": "272,275,279,283",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "19895,20058,20352,20647"
+                    }
+                },
+                {
+                    "source": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/res/values-v21/styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "19",
+                        "startOffsets": "17",
                         "endLines": "6",
                         "endColumns": "12",
-                        "endOffsets": "246"
+                        "endOffsets": "240"
                     },
                     "to": {
                         "startLines": "6",

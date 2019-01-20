@@ -1,397 +1,401 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:2:1-31:12
-MERGED from [com.android.support:design:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\6a1a710751fcf673c99324eea1e8641a\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\2a6b13dd8bb31af41a32f0f06f716fe1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e1ba6a0cc8afbcd769ccdbf04d23a120\AndroidManifest.xml:2:1-11:12
-MERGED from [com.github.barteksc:android-pdf-viewer:3.1.0-beta.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\android-pdf-viewer-3.1.0-beta.1.aar\ab5393163d144a4b6d5dfa9c057cf9e1\AndroidManifest.xml:2:1-11:12
-MERGED from [com.github.barteksc:pdfium-android:1.9.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.9.0.aar\ef5e9c864d03232cf91188bcef03e670\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\40dc75d6c011a519a45aee8fcdf9561b\AndroidManifest.xml:17:1-42:12
-MERGED from [com.google.firebase:firebase-database:16.0.5] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.5.aar\06e389540350735ba0bc1fb64f0a1a55\AndroidManifest.xml:15:1-25:12
-MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\12d0af555501234d6ad7745ff8c9da24\AndroidManifest.xml:17:1-37:12
-MERGED from [com.google.firebase:firebase-storage:16.0.5] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.0.5.aar\62736c7b8c5f0129f40a0a44c363f837\AndroidManifest.xml:15:1-26:12
-MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\66b05e32da5f0ec4a88ac76efe94990f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\f336c51a0470bfc357fb8a61b7be6caa\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:17:1-59:12
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\0e35bc65c81724d56ad6856a320d20c5\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a683c8be6bafb1e30355ec7e71adc81b\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.firebase:firebase-common:16.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.4.aar\1d45ed042cdbb60748c728c26a6e47d6\AndroidManifest.xml:2:1-17:12
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\bcbcd797919eb099aed7e2508fffcd82\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\af57adba831e9a23e16a0cd8b617a9a5\AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\4e2e9077d33c2ad19c11d936b90171f3\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\fa0af168ffee6a609eb95ac564776522\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\e495875be01b60b9aa2d281c1140cf19\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\45ac8e3030c8ac7b6958cb5f47f45a0d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\951814f7d0c3f3a0e4629b921076ce1d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\6015a532f0f1d8eed52f65fe9ede2aaf\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\0159079b5ae3faec1e6a16312e87a220\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\9ff9f309f189ea1992cfe350d7737164\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\6f77639396bf06783419c21b962a9880\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\8c97455bf31bdb13fe445be6c1053ac7\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\df74964feb0a0fa85d3d7f0d756bed0f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\8e21d45cca98a3e8bcae53ab11a95669\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\e9e6b91f480313dcace3d922db18bb79\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\8e59d82a1abd6745b9102180cc55a295\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\64483f5bbb8868de3c4df6ed48934272\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\c0f7e651e79022d776a5377f1926359a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\2d4c9121df7e27949ac192620b0c2a70\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\8378c726e474d13226cdfb5996970b0c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\292af83256c2b4809d36c7fea43a3dbd\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8dcc2b715e73d15c17f58c14341b2f74\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\1310718aee6ca1009fc706dab9f2e0c9\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\da49300ded8adb2b3a64bc53cc909b19\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\e8c2422f016db0188919b918d9e947a0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\7b3895c36ac8569fed14348dcc238201\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\df942da7babf382745daa7f28dba063c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\78b41ed9b039a281c5f484c0e8b3ce42\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\4ebe44edc5936d3ebf3a1360c44ab769\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\f26514ad79e42f572e186a6b6a634be5\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\2b5a845418fe2407eab1518d79d4c1f0\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\7036e81171402ce92266a71aef6a9ceb\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\76a5ec74ab51f0355085657ceabae79e\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\034254934f566174353a3da8985ff953\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-16.0.1.aar\e87c41bac6b4accc61de02d191ef8355\AndroidManifest.xml:2:1-7:12
-INJECTED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:2:1-32:12
+MERGED from [com.android.support:design:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/3ac3b1f60785af4c7e168fa3873fccda/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/bfb6a03b8c0bacd98801f48ee0f10c75/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/xacker/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/3d7f531d508a401e978082a3dc0f5c30/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.barteksc:android-pdf-viewer:3.1.0-beta.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-3.1.0-beta.1.aar/5a200b4d4662c675c48ce319ed737bc7/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.barteksc:pdfium-android:1.9.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/pdfium-android-1.9.0.aar/860495e00191d93dbd85a2ff06739c92/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-auth:16.1.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/2d1d0595739fc23b833baf7783588113/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-database:16.0.5] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.5.aar/4e5e3d8be538fe3519a1b9ebe3dfe8cb/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/2e6eb72d4a1e3874371f9bea611ac22b/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/67f60c9e83335c77408f4823cc4bef14/AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/bf59c703f8393ee1ad867f0d37c2f098/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/da92eb9bd5fc5b280bd837dc7dc0f381/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/01d384b25bd0bf54caef6baac4044bce/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ab40cf864b3219a1722c4e4cb955bad3/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/46613cd67774d6309f80862e36a1fe1a/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/043ad53a806c5d2e25ff7105101cda7d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/14f18695b344f14e96e4da7cea2c2250/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/34f24e1bd674be96e9205d2404e53fb4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/4d43d8ec5ecbcb10dad5c68ad0c677a6/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/848562cf2ea5ccdec54a16fd66077cd8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/4c3026c2e5b75f7633e9c0d58ca70ee2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/da25e3e061de0c2cc98e0eefddddce0c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/ab934df472bfaaa6fa933a3b2d21614b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/43338ecf094a66c6a81dec73a4b18534/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/73c2348c64fc931da0bc60da6a5b5e6a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/6c52f1ae68b3dfe5fd1a3dad5694d20c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/983695f9e132185ec0a618dfb5d23e1d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/ccc2c83929db28887a15fd9dc54ddcbc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/c13b011e4df1fa7b3f337da066da191f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/05e83b076baa7cd8739d1c69fe3b9be8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/f2e9a841e25c26d9ad929b76167790bd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/f87a470e89e1669a1d02a63837de08ef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/5f584d456088156664b0d22044a9b0bb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/861723948cdffc1dad22c44dba974d01/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/11813831e385b2bb1e05ffa8bd0b9d2c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/913edc54c646833ee2ece10659202eb9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/36c56b071131c8265e754d24a8ea2553/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/450920225a11070544a932e630dbe606/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/c199c0eaaa39340faa0c6d2816a34429/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/cfca12b671e0b00ba79356ed17a25161/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6f75a7b805a8997aadee5a34d82c3725/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/bc131c4d3db8eb0662fad07c378e76cc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/e615a173b98860e7e938a4cfefc0ce5e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/6fd0814e3714a9954f0013279debfff6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/d9a58e7108bce51b57547bec5b45284b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/3f2283d1196b1826f02c026a0a9f1808/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/8cee28a685ca6962e9c0ea20f85c4f3d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/55524d9fe0d174038f0224056087c2ee/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5853c0c07cf8cd00e0fc58928b8e2ad1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/ce6e224b5a2dfbe74c67efec051fa372/AndroidManifest.xml:2:1-7:12
+INJECTED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:2:1-32:12
 	package
-		ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:3:5-41
-		INJECTED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml
+		ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml
+		INJECTED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:2:1-31:12
-		INJECTED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml
+		INJECTED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml
+		ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:2:1-32:12
+		INJECTED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:2:1-31:12
-		INJECTED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml
+		INJECTED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml
+		ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:2:1-32:12
+		INJECTED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:5:5-29:19
-MERGED from [com.android.support:design:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\6a1a710751fcf673c99324eea1e8641a\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\6a1a710751fcf673c99324eea1e8641a\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e1ba6a0cc8afbcd769ccdbf04d23a120\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e1ba6a0cc8afbcd769ccdbf04d23a120\AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\40dc75d6c011a519a45aee8fcdf9561b\AndroidManifest.xml:23:5-40:19
-MERGED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\40dc75d6c011a519a45aee8fcdf9561b\AndroidManifest.xml:23:5-40:19
-MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\12d0af555501234d6ad7745ff8c9da24\AndroidManifest.xml:22:5-35:19
-MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\12d0af555501234d6ad7745ff8c9da24\AndroidManifest.xml:22:5-35:19
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\f336c51a0470bfc357fb8a61b7be6caa\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\f336c51a0470bfc357fb8a61b7be6caa\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:28:5-57:19
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:28:5-57:19
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\0e35bc65c81724d56ad6856a320d20c5\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\0e35bc65c81724d56ad6856a320d20c5\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a683c8be6bafb1e30355ec7e71adc81b\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a683c8be6bafb1e30355ec7e71adc81b\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.firebase:firebase-common:16.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.4.aar\1d45ed042cdbb60748c728c26a6e47d6\AndroidManifest.xml:9:5-15:19
-MERGED from [com.google.firebase:firebase-common:16.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.4.aar\1d45ed042cdbb60748c728c26a6e47d6\AndroidManifest.xml:9:5-15:19
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\bcbcd797919eb099aed7e2508fffcd82\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\bcbcd797919eb099aed7e2508fffcd82\AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\af57adba831e9a23e16a0cd8b617a9a5\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\af57adba831e9a23e16a0cd8b617a9a5\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\4e2e9077d33c2ad19c11d936b90171f3\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\4e2e9077d33c2ad19c11d936b90171f3\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\fa0af168ffee6a609eb95ac564776522\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\fa0af168ffee6a609eb95ac564776522\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8dcc2b715e73d15c17f58c14341b2f74\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8dcc2b715e73d15c17f58c14341b2f74\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\1310718aee6ca1009fc706dab9f2e0c9\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\1310718aee6ca1009fc706dab9f2e0c9\AndroidManifest.xml:22:5-23:19
+ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:5:5-30:19
+MERGED from [com.android.support:design:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/3ac3b1f60785af4c7e168fa3873fccda/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/3ac3b1f60785af4c7e168fa3873fccda/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/xacker/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/3d7f531d508a401e978082a3dc0f5c30/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/xacker/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/3d7f531d508a401e978082a3dc0f5c30/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:16.1.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/2d1d0595739fc23b833baf7783588113/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:16.1.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/2d1d0595739fc23b833baf7783588113/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/2e6eb72d4a1e3874371f9bea611ac22b/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/2e6eb72d4a1e3874371f9bea611ac22b/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/da92eb9bd5fc5b280bd837dc7dc0f381/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/da92eb9bd5fc5b280bd837dc7dc0f381/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/01d384b25bd0bf54caef6baac4044bce/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/01d384b25bd0bf54caef6baac4044bce/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ab40cf864b3219a1722c4e4cb955bad3/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ab40cf864b3219a1722c4e4cb955bad3/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/46613cd67774d6309f80862e36a1fe1a/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/46613cd67774d6309f80862e36a1fe1a/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/043ad53a806c5d2e25ff7105101cda7d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/043ad53a806c5d2e25ff7105101cda7d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/14f18695b344f14e96e4da7cea2c2250/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/14f18695b344f14e96e4da7cea2c2250/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/34f24e1bd674be96e9205d2404e53fb4/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/34f24e1bd674be96e9205d2404e53fb4/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/4d43d8ec5ecbcb10dad5c68ad0c677a6/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/4d43d8ec5ecbcb10dad5c68ad0c677a6/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/36c56b071131c8265e754d24a8ea2553/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/36c56b071131c8265e754d24a8ea2553/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/450920225a11070544a932e630dbe606/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/450920225a11070544a932e630dbe606/AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8dcc2b715e73d15c17f58c14341b2f74\AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/36c56b071131c8265e754d24a8ea2553/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:9:9-43
 	android:icon
-		ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:11:9-40
 activity#com.messenger.my.messenger.Authorizatoin
-ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:12:9-21:20
+ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:12:9-21:20
 	android:label
-		ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:14:13-45
+		ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:14:13-45
 	android:theme
-		ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:15:13-56
+		ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:15:13-56
 	android:name
-		ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:13:13-42
+		ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:13:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:19:27-74
 activity#com.messenger.my.messenger.MainActivity
-ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:22:9-50
+ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:22:9-50
 	android:name
-		ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:22:19-47
+		ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:22:19-47
 activity#com.messenger.my.messenger.Registration
-ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:23:9-50
+ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:23:9-50
 	android:name
-		ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:23:19-47
+		ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:23:19-47
 activity#com.messenger.my.messenger.CheckEmail
-ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:24:9-48
+ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:24:9-48
 	android:name
-		ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:24:19-45
+		ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:24:19-45
 activity#com.messenger.my.messenger.Main2Activity
-ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:25:9-28:68
+ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:25:9-28:68
 	android:label
-		ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:27:13-57
+		ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:27:13-57
 	android:theme
-		ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:28:13-56
+		ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:28:13-56
 	android:name
-		ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml:26:13-42
+		ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:26:13-42
+activity#com.messenger.my.messenger.SignInTeach
+ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:29:9-58
+	android:name
+		ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml:29:19-46
 uses-sdk
-INJECTED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\6a1a710751fcf673c99324eea1e8641a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\6a1a710751fcf673c99324eea1e8641a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\2a6b13dd8bb31af41a32f0f06f716fe1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\2a6b13dd8bb31af41a32f0f06f716fe1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e1ba6a0cc8afbcd769ccdbf04d23a120\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e1ba6a0cc8afbcd769ccdbf04d23a120\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.barteksc:android-pdf-viewer:3.1.0-beta.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\android-pdf-viewer-3.1.0-beta.1.aar\ab5393163d144a4b6d5dfa9c057cf9e1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.barteksc:android-pdf-viewer:3.1.0-beta.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\android-pdf-viewer-3.1.0-beta.1.aar\ab5393163d144a4b6d5dfa9c057cf9e1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.barteksc:pdfium-android:1.9.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.9.0.aar\ef5e9c864d03232cf91188bcef03e670\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.barteksc:pdfium-android:1.9.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.9.0.aar\ef5e9c864d03232cf91188bcef03e670\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\40dc75d6c011a519a45aee8fcdf9561b\AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\40dc75d6c011a519a45aee8fcdf9561b\AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-database:16.0.5] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.5.aar\06e389540350735ba0bc1fb64f0a1a55\AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.firebase:firebase-database:16.0.5] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.5.aar\06e389540350735ba0bc1fb64f0a1a55\AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\12d0af555501234d6ad7745ff8c9da24\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\12d0af555501234d6ad7745ff8c9da24\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-storage:16.0.5] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.0.5.aar\62736c7b8c5f0129f40a0a44c363f837\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-storage:16.0.5] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.0.5.aar\62736c7b8c5f0129f40a0a44c363f837\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\66b05e32da5f0ec4a88ac76efe94990f\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\66b05e32da5f0ec4a88ac76efe94990f\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\f336c51a0470bfc357fb8a61b7be6caa\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\f336c51a0470bfc357fb8a61b7be6caa\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\0e35bc65c81724d56ad6856a320d20c5\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\0e35bc65c81724d56ad6856a320d20c5\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a683c8be6bafb1e30355ec7e71adc81b\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a683c8be6bafb1e30355ec7e71adc81b\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common:16.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.4.aar\1d45ed042cdbb60748c728c26a6e47d6\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-common:16.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.4.aar\1d45ed042cdbb60748c728c26a6e47d6\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\bcbcd797919eb099aed7e2508fffcd82\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\bcbcd797919eb099aed7e2508fffcd82\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\af57adba831e9a23e16a0cd8b617a9a5\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\af57adba831e9a23e16a0cd8b617a9a5\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\4e2e9077d33c2ad19c11d936b90171f3\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\4e2e9077d33c2ad19c11d936b90171f3\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\fa0af168ffee6a609eb95ac564776522\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\fa0af168ffee6a609eb95ac564776522\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\e495875be01b60b9aa2d281c1140cf19\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\e495875be01b60b9aa2d281c1140cf19\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\45ac8e3030c8ac7b6958cb5f47f45a0d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\45ac8e3030c8ac7b6958cb5f47f45a0d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\951814f7d0c3f3a0e4629b921076ce1d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\951814f7d0c3f3a0e4629b921076ce1d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\6015a532f0f1d8eed52f65fe9ede2aaf\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\6015a532f0f1d8eed52f65fe9ede2aaf\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\0159079b5ae3faec1e6a16312e87a220\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\0159079b5ae3faec1e6a16312e87a220\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\9ff9f309f189ea1992cfe350d7737164\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\9ff9f309f189ea1992cfe350d7737164\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\6f77639396bf06783419c21b962a9880\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\6f77639396bf06783419c21b962a9880\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\8c97455bf31bdb13fe445be6c1053ac7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\8c97455bf31bdb13fe445be6c1053ac7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\df74964feb0a0fa85d3d7f0d756bed0f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\df74964feb0a0fa85d3d7f0d756bed0f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\8e21d45cca98a3e8bcae53ab11a95669\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\8e21d45cca98a3e8bcae53ab11a95669\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\e9e6b91f480313dcace3d922db18bb79\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\e9e6b91f480313dcace3d922db18bb79\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\8e59d82a1abd6745b9102180cc55a295\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\8e59d82a1abd6745b9102180cc55a295\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\64483f5bbb8868de3c4df6ed48934272\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\64483f5bbb8868de3c4df6ed48934272\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\c0f7e651e79022d776a5377f1926359a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\c0f7e651e79022d776a5377f1926359a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\2d4c9121df7e27949ac192620b0c2a70\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\2d4c9121df7e27949ac192620b0c2a70\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\8378c726e474d13226cdfb5996970b0c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\8378c726e474d13226cdfb5996970b0c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\292af83256c2b4809d36c7fea43a3dbd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\292af83256c2b4809d36c7fea43a3dbd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8dcc2b715e73d15c17f58c14341b2f74\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8dcc2b715e73d15c17f58c14341b2f74\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\1310718aee6ca1009fc706dab9f2e0c9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\1310718aee6ca1009fc706dab9f2e0c9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\da49300ded8adb2b3a64bc53cc909b19\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\da49300ded8adb2b3a64bc53cc909b19\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\e8c2422f016db0188919b918d9e947a0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\e8c2422f016db0188919b918d9e947a0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\7b3895c36ac8569fed14348dcc238201\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\7b3895c36ac8569fed14348dcc238201\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\df942da7babf382745daa7f28dba063c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\df942da7babf382745daa7f28dba063c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\78b41ed9b039a281c5f484c0e8b3ce42\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\78b41ed9b039a281c5f484c0e8b3ce42\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\4ebe44edc5936d3ebf3a1360c44ab769\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\4ebe44edc5936d3ebf3a1360c44ab769\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\f26514ad79e42f572e186a6b6a634be5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\f26514ad79e42f572e186a6b6a634be5\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\2b5a845418fe2407eab1518d79d4c1f0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\2b5a845418fe2407eab1518d79d4c1f0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\7036e81171402ce92266a71aef6a9ceb\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\7036e81171402ce92266a71aef6a9ceb\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\76a5ec74ab51f0355085657ceabae79e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\76a5ec74ab51f0355085657ceabae79e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\034254934f566174353a3da8985ff953\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\034254934f566174353a3da8985ff953\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-16.0.1.aar\e87c41bac6b4accc61de02d191ef8355\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-16.0.1.aar\e87c41bac6b4accc61de02d191ef8355\AndroidManifest.xml:5:5-44
-INJECTED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml
+INJECTED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml
+INJECTED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/3ac3b1f60785af4c7e168fa3873fccda/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/3ac3b1f60785af4c7e168fa3873fccda/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/bfb6a03b8c0bacd98801f48ee0f10c75/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/bfb6a03b8c0bacd98801f48ee0f10c75/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/xacker/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/3d7f531d508a401e978082a3dc0f5c30/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/xacker/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/3d7f531d508a401e978082a3dc0f5c30/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.barteksc:android-pdf-viewer:3.1.0-beta.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-3.1.0-beta.1.aar/5a200b4d4662c675c48ce319ed737bc7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:android-pdf-viewer:3.1.0-beta.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-3.1.0-beta.1.aar/5a200b4d4662c675c48ce319ed737bc7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.9.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/pdfium-android-1.9.0.aar/860495e00191d93dbd85a2ff06739c92/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.9.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/pdfium-android-1.9.0.aar/860495e00191d93dbd85a2ff06739c92/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-auth:16.1.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/2d1d0595739fc23b833baf7783588113/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:16.1.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/2d1d0595739fc23b833baf7783588113/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.5] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.5.aar/4e5e3d8be538fe3519a1b9ebe3dfe8cb/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:16.0.5] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.5.aar/4e5e3d8be538fe3519a1b9ebe3dfe8cb/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/2e6eb72d4a1e3874371f9bea611ac22b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/2e6eb72d4a1e3874371f9bea611ac22b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/67f60c9e83335c77408f4823cc4bef14/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/67f60c9e83335c77408f4823cc4bef14/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/bf59c703f8393ee1ad867f0d37c2f098/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/bf59c703f8393ee1ad867f0d37c2f098/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/da92eb9bd5fc5b280bd837dc7dc0f381/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/da92eb9bd5fc5b280bd837dc7dc0f381/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/01d384b25bd0bf54caef6baac4044bce/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/01d384b25bd0bf54caef6baac4044bce/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ab40cf864b3219a1722c4e4cb955bad3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ab40cf864b3219a1722c4e4cb955bad3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/46613cd67774d6309f80862e36a1fe1a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/46613cd67774d6309f80862e36a1fe1a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/043ad53a806c5d2e25ff7105101cda7d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/043ad53a806c5d2e25ff7105101cda7d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/14f18695b344f14e96e4da7cea2c2250/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/14f18695b344f14e96e4da7cea2c2250/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/34f24e1bd674be96e9205d2404e53fb4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/34f24e1bd674be96e9205d2404e53fb4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/4d43d8ec5ecbcb10dad5c68ad0c677a6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/4d43d8ec5ecbcb10dad5c68ad0c677a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/848562cf2ea5ccdec54a16fd66077cd8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/848562cf2ea5ccdec54a16fd66077cd8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/4c3026c2e5b75f7633e9c0d58ca70ee2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/4c3026c2e5b75f7633e9c0d58ca70ee2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/da25e3e061de0c2cc98e0eefddddce0c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/da25e3e061de0c2cc98e0eefddddce0c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/ab934df472bfaaa6fa933a3b2d21614b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/ab934df472bfaaa6fa933a3b2d21614b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/43338ecf094a66c6a81dec73a4b18534/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/43338ecf094a66c6a81dec73a4b18534/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/73c2348c64fc931da0bc60da6a5b5e6a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/73c2348c64fc931da0bc60da6a5b5e6a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/6c52f1ae68b3dfe5fd1a3dad5694d20c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/6c52f1ae68b3dfe5fd1a3dad5694d20c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/983695f9e132185ec0a618dfb5d23e1d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/983695f9e132185ec0a618dfb5d23e1d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/ccc2c83929db28887a15fd9dc54ddcbc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/ccc2c83929db28887a15fd9dc54ddcbc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/c13b011e4df1fa7b3f337da066da191f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/c13b011e4df1fa7b3f337da066da191f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/05e83b076baa7cd8739d1c69fe3b9be8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/05e83b076baa7cd8739d1c69fe3b9be8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/f2e9a841e25c26d9ad929b76167790bd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/f2e9a841e25c26d9ad929b76167790bd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/f87a470e89e1669a1d02a63837de08ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/f87a470e89e1669a1d02a63837de08ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/5f584d456088156664b0d22044a9b0bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/5f584d456088156664b0d22044a9b0bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/861723948cdffc1dad22c44dba974d01/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/861723948cdffc1dad22c44dba974d01/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/11813831e385b2bb1e05ffa8bd0b9d2c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/11813831e385b2bb1e05ffa8bd0b9d2c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/913edc54c646833ee2ece10659202eb9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/913edc54c646833ee2ece10659202eb9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/36c56b071131c8265e754d24a8ea2553/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/36c56b071131c8265e754d24a8ea2553/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/450920225a11070544a932e630dbe606/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/450920225a11070544a932e630dbe606/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/c199c0eaaa39340faa0c6d2816a34429/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/c199c0eaaa39340faa0c6d2816a34429/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/cfca12b671e0b00ba79356ed17a25161/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/cfca12b671e0b00ba79356ed17a25161/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6f75a7b805a8997aadee5a34d82c3725/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6f75a7b805a8997aadee5a34d82c3725/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/bc131c4d3db8eb0662fad07c378e76cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/bc131c4d3db8eb0662fad07c378e76cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/e615a173b98860e7e938a4cfefc0ce5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/e615a173b98860e7e938a4cfefc0ce5e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/6fd0814e3714a9954f0013279debfff6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/6fd0814e3714a9954f0013279debfff6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/d9a58e7108bce51b57547bec5b45284b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/d9a58e7108bce51b57547bec5b45284b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/3f2283d1196b1826f02c026a0a9f1808/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/3f2283d1196b1826f02c026a0a9f1808/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/8cee28a685ca6962e9c0ea20f85c4f3d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/8cee28a685ca6962e9c0ea20f85c4f3d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/55524d9fe0d174038f0224056087c2ee/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/55524d9fe0d174038f0224056087c2ee/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5853c0c07cf8cd00e0fc58928b8e2ad1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5853c0c07cf8cd00e0fc58928b8e2ad1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/ce6e224b5a2dfbe74c67efec051fa372/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/ce6e224b5a2dfbe74c67efec051fa372/AndroidManifest.xml:5:5-44
+INJECTED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml
+INJECTED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml
+		INJECTED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml
+		ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml
+		INJECTED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\dansu\messenger\app\src\main\AndroidManifest.xml
+		INJECTED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml
+		ADDED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml
+		INJECTED from /home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/AndroidManifest.xml
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
-ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\40dc75d6c011a519a45aee8fcdf9561b\AndroidManifest.xml:24:9-31:50
+ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/2d1d0595739fc23b833baf7783588113/AndroidManifest.xml:24:9-31:50
 	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\40dc75d6c011a519a45aee8fcdf9561b\AndroidManifest.xml:26:13-46
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/2d1d0595739fc23b833baf7783588113/AndroidManifest.xml:26:13-46
 	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\40dc75d6c011a519a45aee8fcdf9561b\AndroidManifest.xml:28:13-44
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/2d1d0595739fc23b833baf7783588113/AndroidManifest.xml:28:13-44
 	android:exported
-		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\40dc75d6c011a519a45aee8fcdf9561b\AndroidManifest.xml:27:13-36
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/2d1d0595739fc23b833baf7783588113/AndroidManifest.xml:27:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\40dc75d6c011a519a45aee8fcdf9561b\AndroidManifest.xml:29:13-102
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/2d1d0595739fc23b833baf7783588113/AndroidManifest.xml:29:13-102
 	android:theme
-		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\40dc75d6c011a519a45aee8fcdf9561b\AndroidManifest.xml:30:13-72
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/2d1d0595739fc23b833baf7783588113/AndroidManifest.xml:30:13-72
 	tools:replace
-		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\40dc75d6c011a519a45aee8fcdf9561b\AndroidManifest.xml:31:13-47
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/2d1d0595739fc23b833baf7783588113/AndroidManifest.xml:31:13-47
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\40dc75d6c011a519a45aee8fcdf9561b\AndroidManifest.xml:25:13-85
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/2d1d0595739fc23b833baf7783588113/AndroidManifest.xml:25:13-85
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\40dc75d6c011a519a45aee8fcdf9561b\AndroidManifest.xml:33:9-39:19
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:29:9-35:19
+ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/2d1d0595739fc23b833baf7783588113/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:29:9-35:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\40dc75d6c011a519a45aee8fcdf9561b\AndroidManifest.xml:35:13-37
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/2d1d0595739fc23b833baf7783588113/AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\40dc75d6c011a519a45aee8fcdf9561b\AndroidManifest.xml:34:13-84
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/2d1d0595739fc23b833baf7783588113/AndroidManifest.xml:34:13-84
 meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
-ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\40dc75d6c011a519a45aee8fcdf9561b\AndroidManifest.xml:36:13-38:85
+ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/2d1d0595739fc23b833baf7783588113/AndroidManifest.xml:36:13-38:85
 	android:value
-		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\40dc75d6c011a519a45aee8fcdf9561b\AndroidManifest.xml:38:17-82
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/2d1d0595739fc23b833baf7783588113/AndroidManifest.xml:38:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\40dc75d6c011a519a45aee8fcdf9561b\AndroidManifest.xml:37:17-109
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.1.0.aar/2d1d0595739fc23b833baf7783588113/AndroidManifest.xml:37:17-109
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-database:16.0.5] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.5.aar\06e389540350735ba0bc1fb64f0a1a55\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-storage:16.0.5] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.0.5.aar\62736c7b8c5f0129f40a0a44c363f837\AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-storage:16.0.5] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.0.5.aar\62736c7b8c5f0129f40a0a44c363f837\AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:22:5-79
+ADDED from [com.google.firebase:firebase-database:16.0.5] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.5.aar/4e5e3d8be538fe3519a1b9ebe3dfe8cb/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/67f60c9e83335c77408f4823cc4bef14/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/67f60c9e83335c77408f4823cc4bef14/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-database:16.0.5] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.5.aar\06e389540350735ba0bc1fb64f0a1a55\AndroidManifest.xml:22:22-76
+		ADDED from [com.google.firebase:firebase-database:16.0.5] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.5.aar/4e5e3d8be538fe3519a1b9ebe3dfe8cb/AndroidManifest.xml:22:22-76
 uses-permission#android.permission.INTERNET
-ADDED from [com.google.firebase:firebase-database:16.0.5] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.5.aar\06e389540350735ba0bc1fb64f0a1a55\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-storage:16.0.5] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.0.5.aar\62736c7b8c5f0129f40a0a44c363f837\AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-storage:16.0.5] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.0.5.aar\62736c7b8c5f0129f40a0a44c363f837\AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:23:5-67
+ADDED from [com.google.firebase:firebase-database:16.0.5] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.5.aar/4e5e3d8be538fe3519a1b9ebe3dfe8cb/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/67f60c9e83335c77408f4823cc4bef14/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/67f60c9e83335c77408f4823cc4bef14/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from [com.google.firebase:firebase-database:16.0.5] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.5.aar\06e389540350735ba0bc1fb64f0a1a55\AndroidManifest.xml:23:22-64
+		ADDED from [com.google.firebase:firebase-database:16.0.5] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.5.aar/4e5e3d8be538fe3519a1b9ebe3dfe8cb/AndroidManifest.xml:23:22-64
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\12d0af555501234d6ad7745ff8c9da24\AndroidManifest.xml:28:9-34:19
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/2e6eb72d4a1e3874371f9bea611ac22b/AndroidManifest.xml:28:9-34:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\12d0af555501234d6ad7745ff8c9da24\AndroidManifest.xml:30:13-36
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/2e6eb72d4a1e3874371f9bea611ac22b/AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\12d0af555501234d6ad7745ff8c9da24\AndroidManifest.xml:29:13-82
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/2e6eb72d4a1e3874371f9bea611ac22b/AndroidManifest.xml:29:13-82
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\12d0af555501234d6ad7745ff8c9da24\AndroidManifest.xml:31:13-33:29
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/2e6eb72d4a1e3874371f9bea611ac22b/AndroidManifest.xml:31:13-33:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\12d0af555501234d6ad7745ff8c9da24\AndroidManifest.xml:31:28-51
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/2e6eb72d4a1e3874371f9bea611ac22b/AndroidManifest.xml:31:28-51
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\12d0af555501234d6ad7745ff8c9da24\AndroidManifest.xml:32:17-78
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/2e6eb72d4a1e3874371f9bea611ac22b/AndroidManifest.xml:32:17-78
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\12d0af555501234d6ad7745ff8c9da24\AndroidManifest.xml:32:25-75
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/2e6eb72d4a1e3874371f9bea611ac22b/AndroidManifest.xml:32:25-75
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:24:5-68
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:24:5-68
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:24:22-65
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:24:22-65
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:26:5-82
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:26:5-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:26:22-79
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:26:22-79
 meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
-ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:32:13-34:85
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:32:13-34:85
 	android:value
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:34:17-82
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:34:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:33:17-96
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:33:17-96
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:37:9-44:20
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:37:9-44:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:39:13-36
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:39:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:40:13-73
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:40:13-73
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:38:13-78
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:38:13-78
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:41:13-43:29
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:41:13-43:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:42:17-81
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:42:17-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:42:25-78
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:42:25-78
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:50:9-56:19
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:50:9-56:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:52:13-36
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:52:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:51:13-77
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:51:13-77
 intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:53:13-55:29
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:53:13-55:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:53:28-51
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:53:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:54:17-80
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:54:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\f621d253e5dcfa90af142b832252c3ad\AndroidManifest.xml:54:25-77
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/1243690a4ff82818c372f23ce92a49fb/AndroidManifest.xml:54:25-77
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a683c8be6bafb1e30355ec7e71adc81b\AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ab40cf864b3219a1722c4e4cb955bad3/AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a683c8be6bafb1e30355ec7e71adc81b\AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ab40cf864b3219a1722c4e4cb955bad3/AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a683c8be6bafb1e30355ec7e71adc81b\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ab40cf864b3219a1722c4e4cb955bad3/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a683c8be6bafb1e30355ec7e71adc81b\AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ab40cf864b3219a1722c4e4cb955bad3/AndroidManifest.xml:24:13-79
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:16.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.4.aar\1d45ed042cdbb60748c728c26a6e47d6\AndroidManifest.xml:10:9-14:39
+ADDED from [com.google.firebase:firebase-common:16.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/46613cd67774d6309f80862e36a1fe1a/AndroidManifest.xml:10:9-14:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:16.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.4.aar\1d45ed042cdbb60748c728c26a6e47d6\AndroidManifest.xml:12:13-72
+		ADDED from [com.google.firebase:firebase-common:16.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/46613cd67774d6309f80862e36a1fe1a/AndroidManifest.xml:12:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:16.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.4.aar\1d45ed042cdbb60748c728c26a6e47d6\AndroidManifest.xml:13:13-37
+		ADDED from [com.google.firebase:firebase-common:16.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/46613cd67774d6309f80862e36a1fe1a/AndroidManifest.xml:13:13-37
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:16.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.4.aar\1d45ed042cdbb60748c728c26a6e47d6\AndroidManifest.xml:14:13-36
+		ADDED from [com.google.firebase:firebase-common:16.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/46613cd67774d6309f80862e36a1fe1a/AndroidManifest.xml:14:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:16.0.4] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.4.aar\1d45ed042cdbb60748c728c26a6e47d6\AndroidManifest.xml:11:13-77
+		ADDED from [com.google.firebase:firebase-common:16.0.4] /home/xacker/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/46613cd67774d6309f80862e36a1fe1a/AndroidManifest.xml:11:13-77
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\fa0af168ffee6a609eb95ac564776522\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:16.1.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/4d43d8ec5ecbcb10dad5c68ad0c677a6/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\fa0af168ffee6a609eb95ac564776522\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/4d43d8ec5ecbcb10dad5c68ad0c677a6/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\dansu\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\fa0af168ffee6a609eb95ac564776522\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] /home/xacker/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/4d43d8ec5ecbcb10dad5c68ad0c677a6/AndroidManifest.xml:24:13-58

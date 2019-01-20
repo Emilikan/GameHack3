@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\dansu\\messenger\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\dansu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2a6b13dd8bb31af41a32f0f06f716fe1\\res\\values-land\\values-land.xml",
+                    "source": "/home/xacker/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/bfb6a03b8c0bacd98801f48ee0f10c75/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\dansu\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\6a1a710751fcf673c99324eea1e8641a\\res\\values-land\\values-land.xml",
+                    "source": "/home/xacker/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/3ac3b1f60785af4c7e168fa3873fccda/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

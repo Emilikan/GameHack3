@@ -22,14 +22,11 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".Registration" />
         <activity android:name=".CheckEmail" />
-<<<<<<< HEAD
         <activity
             android:name=".Main2Activity"
             android:label="@string/title_activity_main2"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-=======
         <activity android:name=".SignInTeach"></activity>
->>>>>>> 75a9d956068c1e8d1acb0c4739aa368cc5c75a97
     </application>
 
 </manifest>

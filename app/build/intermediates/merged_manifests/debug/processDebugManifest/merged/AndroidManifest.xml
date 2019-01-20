@@ -40,6 +40,7 @@
             android:name="com.messenger.my.messenger.Main2Activity"
             android:label="@string/title_activity_main2"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.messenger.my.messenger.SignInTeach" />
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"

@@ -1142,6 +1142,7 @@ id adjust_width
 id alertTitle
 id all
 id always
+id answer
 id async
 id authorMain
 id auto
@@ -1167,6 +1168,7 @@ id checkBoxSaveMeInAdm
 id checkbox
 id choose
 id chronometer
+id classM
 id classMain
 id clip_horizontal
 id clip_vertical
@@ -1239,6 +1241,7 @@ id invisible
 id italic
 id item_touch_helper_previous_elevation
 id kodForEmail
+id kodForSchool
 id labeled
 id largeLabel
 id left
@@ -1261,6 +1264,7 @@ id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
 id name
+id nameOfSchool
 id namess
 id nav_map
 id nav_result
@@ -1272,6 +1276,7 @@ id navigation
 id navigation_dashboard
 id navigation_header_container
 id never
+id new_test
 id next_test
 id none
 id normal
@@ -1301,7 +1306,6 @@ id progressBarInRecycle
 id progress_circular
 id progress_horizontal
 id question1
-id question2
 id radio
 id registration
 id right
@@ -1337,6 +1341,8 @@ id showHome
 id showTitle
 id singIn
 id singInNew
+id singInSch
+id singInTeacher
 id smallLabel
 id snackbar_action
 id snackbar_text
@@ -1354,6 +1360,7 @@ id src_over
 id standard
 id start
 id status_bar_latest_event_content
+id stopBtl
 id stretch
 id subject
 id subjectMain
@@ -1395,12 +1402,6 @@ id up
 id upload
 id upload2
 id useLogo
-id variant1_1
-id variant1_2
-id variant1_3
-id variant2_1
-id variant2_2
-id variant2_3
 id view_offset_helper
 id visible
 id wide
@@ -1460,6 +1461,7 @@ layout activity_check_email
 layout activity_main
 layout activity_main2
 layout activity_registration
+layout activity_sign_in_teach
 layout app_bar_main
 layout app_bar_main2
 layout content_main
@@ -1623,6 +1625,7 @@ string server_sign_in
 string server_title
 string status_bar_notification_info_overflow
 string title_activity_main2
+string title_activity_sign_in_teach
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

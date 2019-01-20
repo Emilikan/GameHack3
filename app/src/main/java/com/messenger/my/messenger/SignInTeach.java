@@ -2,6 +2,7 @@ package com.messenger.my.messenger;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Build;
 import android.preference.PreferenceManager;
@@ -59,7 +60,8 @@ public class SignInTeach extends AppCompatActivity {
                             AlertDialog alert = builder.create();
                             alert.show();
                         } else if(dbKod.equals(nameOfSchool.getText().toString().trim())){
-                            // тут написать открытие активити для учителей
+                            Intent intent = new Intent(SignInTeach.this, Main2Activity.class);
+                            startActivity(intent);
                         } else {
                             AlertDialog.Builder builder = new AlertDialog.Builder(SignInTeach.this);
                             builder.setTitle("Error")
