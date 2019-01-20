@@ -836,8 +836,17 @@
         "source": "C:\\Users\\dansu\\messenger\\app\\src\\main\\res\\layout\\fragment_storage.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\dansu\\messenger\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
         "source": "C:\\Users\\dansu\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\a683c8be6bafb1e30355ec7e71adc81b\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+=======
+        "merged": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/res/merged/debug/layout_fragment_test_for_users.xml.flat",
+        "source": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/res/layout/fragment_test_for_users.xml"
+    },
+    {
+        "merged": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/xacker/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/bfb6a03b8c0bacd98801f48ee0f10c75/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
+>>>>>>> d9ca2c6b13919ec28755be6d3381692182d75d34
     },
     {
         "merged": "C:\\Users\\dansu\\messenger\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",

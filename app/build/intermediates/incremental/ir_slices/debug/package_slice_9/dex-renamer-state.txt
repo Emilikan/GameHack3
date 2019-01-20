@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 #Sun Jan 20 14:14:08 MSK 2019
 base.0=C\:\\Users\\dansu\\messenger\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9
+=======
+#Sun Jan 20 13:23:10 MSK 2019
+base.0=/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/transforms/dexMerger/debug/9
+>>>>>>> d9ca2c6b13919ec28755be6d3381692182d75d34
 path.0=classes.dex
 renamed.0=classes.dex

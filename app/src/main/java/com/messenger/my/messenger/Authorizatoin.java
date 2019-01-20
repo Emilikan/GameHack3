@@ -3,8 +3,12 @@ package com.messenger.my.messenger;
 import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.os.Build;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -16,6 +20,13 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+import java.util.Objects;
 
 public class Authorizatoin extends AppCompatActivity {
 
@@ -24,6 +35,8 @@ public class Authorizatoin extends AppCompatActivity {
 
     String mLog;
     String mPass;
+
+    private DatabaseReference mRef = FirebaseDatabase.getInstance().getReference();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,7 +94,7 @@ public class Authorizatoin extends AppCompatActivity {
     }
 
     private  void  singIn () {
-        FirebaseAuth mAuth = FirebaseAuth.getInstance();
+        final FirebaseAuth mAuth = FirebaseAuth.getInstance();
         mAuth.signInWithEmailAndPassword(mLog, mPass).addOnCompleteListener(Authorizatoin.this, new OnCompleteListener<AuthResult>() {
             @SuppressLint("SetTextI18n")
             @Override
@@ -90,8 +103,29 @@ public class Authorizatoin extends AppCompatActivity {
                 if (task.isSuccessful()) {
                     Toast.makeText(Authorizatoin.this, "Авторизация успешна", Toast.LENGTH_LONG).show();
 
-                    Intent intent = new Intent(Authorizatoin.this, MainActivity.class);
-                    startActivity(intent);
+                    mRef.addListenerForSingleValueEvent(new ValueEventListener() {
+                        @RequiresApi(api = Build.VERSION_CODES.KITKAT)
+                        @Override
+                        public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                            SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(Authorizatoin.this);
+                            SharedPreferences.Editor editor = preferences.edit();
+                            editor.putString("userClass", dataSnapshot.child("Users").child(Objects.requireNonNull(mAuth.getUid())).child("Class").getValue(String.class));
+                            editor.putString("userNumber", dataSnapshot.child("Users").child(Objects.requireNonNull(mAuth.getUid())).child("Number").getValue(String.class));
+                            editor.putString("userUid", mAuth.getUid() + "");
+                            editor.apply();
+
+                            Intent intent = new Intent(Authorizatoin.this, MainActivity.class);
+                            startActivity(intent);
+                        }
+
+                        @Override
+                        public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                        }
+                    });
+
+
+                    ;
 
                 } else {
                     AlertDialog.Builder builder = new AlertDialog.Builder(Authorizatoin.this);
