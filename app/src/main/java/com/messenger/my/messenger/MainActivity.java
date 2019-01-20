@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.battles){
             fragmentClass = Battles.class;
         } else if (id == R.id.bestUsers){
-            fragmentClass = Top.class;
+            fragmentClass = Map.class;
         }
         try {
             assert fragmentClass != null;

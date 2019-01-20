@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Map">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/Physics"
+                    android:layout_width="match_parent"
+                    android:layout_height="262dp"
+                    android:layout_margin="16dp"
+                    android:layout_weight="50"
+                    android:background="#FFF"
+                    android:elevation="10dp"
+                    android:translationZ="10dp"
+                    app:cardCornerRadius="32dp">
+                    <!-- app:cardBackgroundColor="@color/colorGreen"-->
+
+                    <RelativeLayout
+                        android:id="@+id/lessons"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:text="Физика"
+                            android:textColor="#6221d8"
+                            android:textSize="30sp" />
+
+                        <ListView
+                            android:id="@+id/fiz"
+                            android:layout_width="321dp"
+                            android:layout_height="196dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="50dp" />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/biology"
+                    android:layout_width="match_parent"
+                    android:layout_height="262dp"
+                    android:layout_margin="16dp"
+                    android:layout_weight="50"
+                    android:background="#FFF"
+                    android:elevation="10dp"
+                    android:translationZ="10dp"
+                    app:cardCornerRadius="32dp">
+                    <!-- app:cardBackgroundColor="@color/colorGreen"-->
+
+                    <RelativeLayout
+                        android:id="@+id/students"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:text="Биология"
+                            android:textColor="#6221d8"
+                            android:textSize="30sp" />
+
+                        <ListView
+                            android:id="@+id/bio"
+                            android:layout_width="321dp"
+                            android:layout_height="196dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="50dp" />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/informatics"
+                    android:layout_width="match_parent"
+                    android:layout_height="262dp"
+                    android:layout_margin="16dp"
+                    android:layout_weight="50"
+                    android:background="#FFF"
+                    android:elevation="10dp"
+                    android:translationZ="10dp"
+                    app:cardCornerRadius="32dp">
+                    <!-- app:cardBackgroundColor="@color/colorGreen"-->
+
+                    <RelativeLayout
+                        android:id="@+id/students1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:text="Информатика"
+                            android:textColor="#6221d8"
+                            android:textSize="30sp" />
+
+                        <ListView
+                            android:id="@+id/inf"
+                            android:layout_width="321dp"
+                            android:layout_height="196dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="50dp" />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/mathematics"
+                    android:layout_width="match_parent"
+                    android:layout_height="262dp"
+                    android:layout_margin="16dp"
+                    android:layout_weight="50"
+                    android:background="#FFF"
+                    android:elevation="10dp"
+                    android:translationZ="10dp"
+                    app:cardCornerRadius="32dp">
+                    <!-- app:cardBackgroundColor="@color/colorGreen"-->
+
+                    <RelativeLayout
+                        android:id="@+id/students2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:text="Математика"
+                            android:textColor="#6221d8"
+                            android:textSize="30sp" />
+
+                        <ListView
+                            android:id="@+id/math"
+                            android:layout_width="321dp"
+                            android:layout_height="196dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="50dp" />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

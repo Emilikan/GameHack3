@@ -100,7 +100,6 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.ViewHolder> {
                     public void onDataChange(@NonNull final DataSnapshot dataSnapshot) {
                         if(dataSnapshot.child("Books").child(Integer.toString(book.getArrayList().get(i))).child("Icon").getValue(String.class) != null) {
 
-
                             FirebaseStorage storage = FirebaseStorage.getInstance();
                             StorageReference storageRef = storage.getReferenceFromUrl(Objects.requireNonNull(dataSnapshot.child("Books").child(Integer.toString(book.getArrayList().get(i))).child("Icon").getValue(String.class)));
                             storageRef.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {

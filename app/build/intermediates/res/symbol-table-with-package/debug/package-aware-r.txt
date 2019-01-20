@@ -1110,6 +1110,7 @@ id FFF
 id FUNCTION
 id META
 id Part2
+id Physics
 id Project2
 id SHIFT
 id SYM
@@ -1154,6 +1155,8 @@ id barrier
 id battles
 id beginning
 id bestUsers
+id bio
+id biology
 id blocking
 id booksListView2
 id bottom
@@ -1219,6 +1222,7 @@ id fill_horizontal
 id fill_vertical
 id filled
 id fixed
+id fiz
 id fl_content
 id forWho
 id forever
@@ -1240,7 +1244,9 @@ id imageView2
 id imageView3
 id imageView4
 id imageView5
+id inf
 id info
+id informatics
 id invisible
 id italic
 id item_touch_helper_previous_elevation
@@ -1249,6 +1255,7 @@ id kodForSchool
 id labeled
 id largeLabel
 id left
+id lessons
 id library
 id light
 id line1
@@ -1262,6 +1269,8 @@ id login
 id mDate
 id masked
 id masters
+id math
+id mathematics
 id media_actions
 id message
 id middle
@@ -1376,6 +1385,9 @@ id start
 id status_bar_latest_event_content
 id stopBtl
 id stretch
+id students
+id students1
+id students2
 id subject
 id subjectMain
 id submenuarrow
@@ -1501,6 +1513,7 @@ layout fragment_battles
 layout fragment_chats
 layout fragment_download_from_cloud
 layout fragment_home
+layout fragment_map
 layout fragment_profile
 layout fragment_result
 layout fragment_result_user
@@ -1514,6 +1527,7 @@ layout fragment_test_questions
 layout fragment_top
 layout fragment_work_room
 layout list_text_view
+layout list_text_view2
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout nav_header_main

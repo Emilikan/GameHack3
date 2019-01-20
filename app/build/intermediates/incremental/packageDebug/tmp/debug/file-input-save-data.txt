@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Jan 20 10:18:13 MSK 2019
+#Sun Jan 20 16:28:47 MSK 2019
 5.base=/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/transforms/dexMerger/debug/19
 22.path=lib/x86_64/libmodpng.so
 32.set=NATIVE_RESOURCE

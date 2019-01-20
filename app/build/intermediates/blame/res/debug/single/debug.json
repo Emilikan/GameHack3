@@ -124,12 +124,12 @@
         "source": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/res/merged/debug/color_abc_tint_edittext.xml.flat",
-        "source": "/home/xacker/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/bfb6a03b8c0bacd98801f48ee0f10c75/res/color/abc_tint_edittext.xml"
-    },
-    {
         "merged": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/home/xacker/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/bfb6a03b8c0bacd98801f48ee0f10c75/res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/res/merged/debug/color_abc_tint_edittext.xml.flat",
+        "source": "/home/xacker/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/bfb6a03b8c0bacd98801f48ee0f10c75/res/color/abc_tint_edittext.xml"
     },
     {
         "merged": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -164,12 +164,12 @@
         "source": "/home/xacker/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/3ac3b1f60785af4c7e168fa3873fccda/res/drawable/ic_mtrl_chip_checked_black.xml"
     },
     {
-        "merged": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
-        "source": "/home/xacker/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/bfb6a03b8c0bacd98801f48ee0f10c75/res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/res/merged/debug/animator_design_fab_hide_motion_spec.xml.flat",
         "source": "/home/xacker/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/3ac3b1f60785af4c7e168fa3873fccda/res/animator/design_fab_hide_motion_spec.xml"
+    },
+    {
+        "merged": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "/home/xacker/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/bfb6a03b8c0bacd98801f48ee0f10c75/res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
@@ -180,12 +180,12 @@
         "source": "/home/xacker/.gradle/caches/transforms-1/files-1.1/android-pdf-viewer-3.1.0-beta.1.aar/5a200b4d4662c675c48ce319ed737bc7/res/drawable/default_scroll_handle_top.xml"
     },
     {
-        "merged": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/res/merged/debug/layout_fragment_download_from_cloud.xml.flat",
-        "source": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/res/layout/fragment_download_from_cloud.xml"
-    },
-    {
         "merged": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "/home/xacker/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/bfb6a03b8c0bacd98801f48ee0f10c75/res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/res/merged/debug/layout_fragment_download_from_cloud.xml.flat",
+        "source": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/res/layout/fragment_download_from_cloud.xml"
     },
     {
         "merged": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/res/merged/debug/anim_abc_slide_in_bottom.xml.flat",
@@ -1268,6 +1268,10 @@
         "source": "/home/xacker/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/bfb6a03b8c0bacd98801f48ee0f10c75/res/layout/abc_screen_toolbar.xml"
     },
     {
+        "merged": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/res/merged/debug/layout_fragment_map.xml.flat",
+        "source": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/res/layout/fragment_map.xml"
+    },
+    {
         "merged": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat",
         "source": "/home/xacker/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/36c56b071131c8265e754d24a8ea2553/res/layout-v21/notification_template_icon_group.xml"
     },
@@ -1542,6 +1546,10 @@
     {
         "merged": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_thumb_material.xml.flat",
         "source": "/home/xacker/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/bfb6a03b8c0bacd98801f48ee0f10c75/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/res/merged/debug/layout_list_text_view2.xml.flat",
+        "source": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/src/main/res/layout/list_text_view2.xml"
     },
     {
         "merged": "/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",

@@ -90,11 +90,10 @@ public class Main2Activity extends AppCompatActivity
             editor.putBoolean("DownloadingOfBook", true);
             editor.apply();
 
-
         }  else if (id == R.id.nav_result) {
             fragmentClass = Result.class;
         }else if (id == R.id.nav_map) {
-
+            fragmentClass = Map.class;
         }
 
         try {
