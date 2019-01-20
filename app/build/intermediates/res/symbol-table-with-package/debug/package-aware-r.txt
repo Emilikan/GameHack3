@@ -1288,7 +1288,6 @@ id navigation
 id navigation_dashboard
 id navigation_header_container
 id never
-id new_test
 id next_test
 id none
 id normal
@@ -1425,6 +1424,9 @@ id up
 id upload
 id upload2
 id useLogo
+id var1
+id var2
+id var3
 id view_offset_helper
 id visible
 id wide

@@ -2,126 +2,159 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/background_of_app"
     android:layout_height="match_parent"
+    android:background="@drawable/background_of_app"
     tools:context=".TestQuestions">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="282dp"
-        android:orientation="vertical" />
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="40dp"
-        android:fontFamily="@font/roboto_light"
-        android:gravity="center"
-        android:hint="Вопрос 1"
-        android:textColorHint="#FFFFFF">
+        android:orientation="vertical">
 
-        <android.support.design.widget.TextInputEditText
-            android:id="@+id/question1"
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
             android:fontFamily="@font/roboto_light"
-            android:maxLines="1"
-            android:textColor="#FFFFFF"
-            android:textColorHint="#FFFFFF" />
+            android:gravity="center"
+            android:hint="Вопрос 1"
+            android:textColorHint="#FFFFFF">
 
-    </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/question1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:maxLines="1"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
 
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginRight="40dp"
-        android:fontFamily="@font/roboto_light"
-        android:gravity="center"
-        android:hint="Верный вариант"
-        android:textColorHint="#FFFFFF">
+        </android.support.design.widget.TextInputLayout>
 
-        <android.support.design.widget.TextInputEditText
-            android:layout_width="match_parent"
-            android:id="@+id/answer"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/roboto_light"
-            android:maxLines="1"
-            android:textColor="#FFFFFF"
-            android:textColorHint="#FFFFFF" />
-
-    </android.support.design.widget.TextInputLayout>
-
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginRight="40dp"
-        android:fontFamily="@font/roboto_light"
-        android:gravity="center"
-        android:hint="Вариант 2"
-        android:textColorHint="#FFFFFF">
-
-        <android.support.design.widget.TextInputEditText
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
             android:fontFamily="@font/roboto_light"
-            android:maxLines="1"
-            android:textColor="#FFFFFF"
-            android:textColorHint="#FFFFFF" />
+            android:gravity="center"
+            android:hint="Верный вариант"
+            android:textColorHint="#FFFFFF">
 
-    </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:maxLines="1"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
 
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="140dp"
-        android:layout_marginRight="40dp"
-        android:fontFamily="@font/roboto_light"
-        android:gravity="center"
-        android:hint="Вариант 3"
-        android:textColorHint="#FFFFFF">
+        </android.support.design.widget.TextInputLayout>
 
-        <android.support.design.widget.TextInputEditText
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
             android:fontFamily="@font/roboto_light"
-            android:maxLines="1"
+            android:gravity="center"
+            android:hint="Вариант 1"
+            android:textColorHint="#FFFFFF">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/var1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:maxLines="1"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="@font/roboto_light"
+            android:gravity="center"
+            android:hint="Вариант 2"
+            android:textColorHint="#FFFFFF">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/var2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:maxLines="1"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="@font/roboto_light"
+            android:gravity="center"
+            android:hint="Вариант 3"
+            android:textColorHint="#FFFFFF">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/var3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:maxLines="1"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_weight="1"
+            android:background="@drawable/button_gradient"
+            android:fontFamily="@font/roboto_light"
+            android:padding="24dp"
+            android:text="Закончить"
             android:textColor="#FFFFFF"
-            android:textColorHint="#FFFFFF" />
+            android:textSize="16sp" />
 
-    </android.support.design.widget.TextInputLayout>
+        <Button
+            android:id="@+id/next_test"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_gradient"
+            android:fontFamily="@font/roboto_light"
+            android:padding="24dp"
+            android:layout_marginLeft="30dp"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
 
-    <Button
-    android:id="@+id/upload"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginLeft="40sp"
-    android:layout_marginTop="410dp"
-    android:layout_marginRight="120sp"
-    android:background="@drawable/button_gradient"
-    android:fontFamily="@font/roboto_light"
-    android:padding="24dp"
-    android:text="Загрузить"
-    android:textColor="#FFFFFF"
-    android:textSize="16sp" />
 
-    <Button
-        android:id="@+id/new_test"
-        android:layout_width="66dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="300dp"
-        android:layout_marginTop="410dp"
-        android:layout_marginRight="10dp"
-        android:background="@drawable/button_gradient"
-        android:fontFamily="@font/roboto_light"
-        android:padding="24dp"
-        android:text="+"
-        android:textColor="#FFFFFF"
-        android:textSize="16sp" />
+    </LinearLayout>
+    </LinearLayout>
 
 </FrameLayout>
