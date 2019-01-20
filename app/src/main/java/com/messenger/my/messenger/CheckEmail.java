@@ -102,6 +102,8 @@ public class CheckEmail extends AppCompatActivity {
                             mRef.child("Schools").child(mClass).child(mCount).child("Profile").child("Class").setValue(mClass);
                             mRef.child("Schools").child(mClass).child(mCount).child("Uid").setValue(user.getUid() + "");
                             mRef.child("Schools").child(mClass).child("counterOfUsers").setValue(mCount);
+                            mRef.child("Users").child(user.getUid() + "").child("Class").setValue(mClass);
+                            mRef.child("Users").child(user.getUid() + "").child("Number").setValue(mCount);
 
                         }
                         @RequiresApi(api = Build.VERSION_CODES.KITKAT)
@@ -245,6 +247,8 @@ public class CheckEmail extends AppCompatActivity {
                     co++;
                     mCount = Integer.toString(co);
 
+                    String countOfUsers = dataSnapshot.child("Users").child("counter").getValue(String.class);
+
                     SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(CheckEmail.this);
                     SharedPreferences.Editor editor = preferences.edit();
                     editor.putString("userClass", mClass);
@@ -256,6 +260,8 @@ public class CheckEmail extends AppCompatActivity {
                     mRef.child("Schools").child(mClass).child(mCount).child("Profile").child("Class").setValue(mClass);
                     mRef.child("Schools").child(mClass).child(mCount).child("Uid").setValue(user.getUid() + "");
                     mRef.child("Schools").child(mClass).child("counterOfUsers").setValue(mCount);
+                    mRef.child("Users").child(user.getUid() + "").child("Class").setValue(mClass);
+                    mRef.child("Users").child(user.getUid() + "").child("Number").setValue(mCount);
 
                     editor.putString("log", null);
                     editor.putString("name", null);

@@ -170,7 +170,7 @@ public class TestForUsers extends Fragment {
                     mRef.addListenerForSingleValueEvent(new ValueEventListener() {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                            String co = dataSnapshot.child("School").child(mClass).child(mNumber).child("Points").child(subject).getValue(String.class);
+                            String co = dataSnapshot.child("Schools").child(mClass).child(mNumber).child("Points").child(subject).getValue(String.class);
                             int intCo;
                             if (co != null) {
                                 intCo = Integer.parseInt(co);
@@ -178,7 +178,26 @@ public class TestForUsers extends Fragment {
                                 intCo = 0;
                             }
                             intCo += 5;
-                            mRef.child("School").child(mClass).child(mNumber).child("Points").child(subject).setValue(Integer.toString(intCo));
+                            mRef.child("Schools").child(mClass).child(mNumber).child("Points").child(subject).setValue(Integer.toString(intCo));
+
+                            SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getContext());
+                            SharedPreferences.Editor editor = preferences.edit();
+                            int k = Integer.parseInt(numberQuestion);
+                            k++;
+                            editor.putString("thisQuestion", Integer.toString(k));
+                            editor.apply();
+
+                            String co1 = dataSnapshot.child("Books").child(numberBook).child("Tests").child(numberTest).child("counter").getValue(String.class);
+                            Toast.makeText(getContext(), "Правильный ответ", Toast.LENGTH_SHORT).show();
+                            if (!co1.equals(numberQuestion)) {
+                                Fragment fragment = new TestForUsers();
+                                FragmentManager fragmentManager = Objects.requireNonNull(getActivity()).getSupportFragmentManager();
+                                fragmentManager.beginTransaction().replace(R.id.container, fragment).commit();
+                            } else {
+                                Fragment fragment = new Battles();
+                                FragmentManager fragmentManager = Objects.requireNonNull(getActivity()).getSupportFragmentManager();
+                                fragmentManager.beginTransaction().replace(R.id.container, fragment).commit();
+                            }
                         }
 
                         @Override
@@ -186,13 +205,6 @@ public class TestForUsers extends Fragment {
 
                         }
                     });
-
-                    SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getContext());
-                    SharedPreferences.Editor editor = preferences.edit();
-                    int k = Integer.parseInt(numberQuestion);
-                    k++;
-                    editor.putString("thisQuestion", Integer.toString(k));
-                    editor.apply();
 
                 } else {
                     mRef.addListenerForSingleValueEvent(new ValueEventListener() {
@@ -201,7 +213,7 @@ public class TestForUsers extends Fragment {
                             String co1 = dataSnapshot.child("Books").child(numberBook).child("Tests").child(numberTest).child("counter").getValue(String.class);
 
 
-                            String co = dataSnapshot.child("School").child(mClass).child(mNumber).child("Points").child(subject).getValue(String.class);
+                            String co = dataSnapshot.child("Schools").child(mClass).child(mNumber).child("Points").child(subject).getValue(String.class);
                             int intCo;
                             if (co != null) {
                                 intCo = Integer.parseInt(co);
@@ -209,12 +221,23 @@ public class TestForUsers extends Fragment {
                             } else {
                                 intCo = 0;
                             }
-                            mRef.child("School").child(mClass).child(mNumber).child("Points").child(subject).setValue(Integer.toString(intCo));
+                            mRef.child("Schools").child(mClass).child(mNumber).child("Points").child(subject).setValue(Integer.toString(intCo));
 
+                            SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getContext());
+                            SharedPreferences.Editor editor = preferences.edit();
+                            int k = Integer.parseInt(numberQuestion);
+                            k++;
+                            editor.putString("thisQuestion", Integer.toString(k));
+                            editor.apply();
+                            Toast.makeText(getContext(), "Неправильный ответ", Toast.LENGTH_SHORT).show();
                             if (!co1.equals(numberQuestion)) {
-
+                                Fragment fragment = new TestForUsers();
+                                FragmentManager fragmentManager = Objects.requireNonNull(getActivity()).getSupportFragmentManager();
+                                fragmentManager.beginTransaction().replace(R.id.container, fragment).commit();
                             } else {
-
+                                Fragment fragment = new Battles();
+                                FragmentManager fragmentManager = Objects.requireNonNull(getActivity()).getSupportFragmentManager();
+                                fragmentManager.beginTransaction().replace(R.id.container, fragment).commit();
                             }
                         }
 
@@ -223,12 +246,7 @@ public class TestForUsers extends Fragment {
 
                         }
                     });
-                    SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getContext());
-                    SharedPreferences.Editor editor = preferences.edit();
-                    int k = Integer.parseInt(numberQuestion);
-                    k++;
-                    editor.putString("thisQuestion", Integer.toString(k));
-                    editor.apply();
+
                 }
             }
         });
