@@ -6,23 +6,26 @@
     density="xhdpi"
     format="10"
     plugin-version="3.2.1"
-    timestamp="1547978103861"
+    timestamp="1547982765573"
     token="-5554117966877168892"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="32635" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="1848" />
     <task
         name="verifier"
-        duration="0" />
+        duration="556" />
 
+    <artifact
+        location="C:\Users\dansu\messenger\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
     <artifact
         location="C:\home\xacker\Документы\AndroidStudio Projects\Messenger\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
         type="SPLIT" />
@@ -87,16 +90,16 @@
         location="C:\Users\dansu\messenger\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\dansu\messenger\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
         location="C:\Users\dansu\messenger\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1547978103861"
+        timestamp="1547982765573"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\dansu\messenger\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
         <artifact
             location="C:\home\xacker\Документы\AndroidStudio Projects\Messenger\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
@@ -159,9 +162,6 @@
             type="SPLIT" />
         <artifact
             location="C:\Users\dansu\messenger\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\dansu\messenger\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\dansu\messenger\app\build\intermediates\instant-run-apk\debug\app-debug.apk"

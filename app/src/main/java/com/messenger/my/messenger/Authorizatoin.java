@@ -90,7 +90,7 @@ public class Authorizatoin extends AppCompatActivity {
                 if (task.isSuccessful()) {
                     Toast.makeText(Authorizatoin.this, "Авторизация успешна", Toast.LENGTH_LONG).show();
 
-                    Intent intent = new Intent(Authorizatoin.this, Main2Activity.class);
+                    Intent intent = new Intent(Authorizatoin.this, MainActivity.class);
                     startActivity(intent);
 
                 } else {

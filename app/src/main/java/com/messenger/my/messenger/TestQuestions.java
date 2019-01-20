@@ -34,7 +34,7 @@ public class TestQuestions extends Fragment {
 
     String counterOfFragment;
     Integer counter = 0;
-    EditText answer, question, falseAnswer1, falseAnswer2, falseAnswer3;
+    EditText answer, question, falseAnswer1, falseAnswer2, falseAnswer3, mName;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,7 +52,7 @@ public class TestQuestions extends Fragment {
             counterOfFragment = bundle.getString("Value", "0");
         }
 
-
+        mName = rootView.findViewById(R.id.name);
 
         Button button = rootView.findViewById(R.id.upload);
         button.setOnClickListener(new View.OnClickListener() {
@@ -75,13 +75,15 @@ public class TestQuestions extends Fragment {
                     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-
-                        mRef.child("Books").child(counterOfFragment).child("Tests").child(counter.toString()).child("Answer").setValue(answer);
-                        mRef.child("Books").child(counterOfFragment).child("Tests").child(counter.toString()).child("Question").setValue(question);
-                        mRef.child("Books").child(counterOfFragment).child("Tests").child(counter.toString()).child("counter").setValue(counter);
-                        mRef.child("Books").child(counterOfFragment).child("Tests").child(counter.toString()).child("FalseAnswer1").setValue(falseAnswer1);
-                        mRef.child("Books").child(counterOfFragment).child("Tests").child(counter.toString()).child("FalseAnswer2").setValue(falseAnswer2);
-                        mRef.child("Books").child(counterOfFragment).child("Tests").child(counter.toString()).child("FalseAnswer3").setValue(falseAnswer3);
+                        String counterOfBook = dataSnapshot.child("Books").getValue(String.class);
+                        String counterOfTests = dataSnapshot.child("Books").child(counterOfBook).child("Tests").getValue(String.class);
+                        String counterOfQuestions = dataSnapshot.child("Books").child(counterOfBook).child("Tests").child(counterOfTests).getValue(String.class);
+                        mRef.child("Books").child(counterOfBook).child("Tests").child(counterOfTests).child(counterOfQuestions).child("Answer").setValue(answer);
+                        mRef.child("Books").child(counterOfBook).child("Tests").child(counterOfTests).setValue(mName);
+                        mRef.child("Books").child(counterOfBook).child("Tests").child(counterOfTests).child(counterOfQuestions).child("Description").setValue(question);
+                        mRef.child("Books").child(counterOfBook).child("Tests").child(counterOfTests).child(counterOfQuestions).child("FalseAnswer1").setValue(falseAnswer1);
+                        mRef.child("Books").child(counterOfBook).child("Tests").child(counterOfTests).child(counterOfQuestions).child("FalseAnswer2").setValue(falseAnswer2);
+                        mRef.child("Books").child(counterOfBook).child("Tests").child(counterOfTests).child(counterOfQuestions).child("FalseAnswer3").setValue(falseAnswer3);
 
                     }
                     @RequiresApi(api = Build.VERSION_CODES.KITKAT)

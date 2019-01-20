@@ -65,7 +65,7 @@ public class Test extends Fragment {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
 
-                mRef.child("Books").child(counterOfFragment).child("Tests").child(counter.toString()).child("Name").setValue(mName);
+
 
             }
             @RequiresApi(api = Build.VERSION_CODES.KITKAT)
