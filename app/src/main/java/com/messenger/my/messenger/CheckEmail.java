@@ -84,19 +84,22 @@ public class CheckEmail extends AppCompatActivity {
                         public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                             Toast.makeText(CheckEmail.this, user.getUid() + "", Toast.LENGTH_SHORT).show();
 
-                            SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(CheckEmail.this);
-                            SharedPreferences.Editor editor = preferences.edit();
-                            editor.putString("userUid", user.getUid() + "");
-                            editor.apply();
-
                             String mCount = dataSnapshot.child("Schools").child(mClass).child("counterOfUsers").getValue(String.class);
                             assert mCount != null;
                             int co = Integer.parseInt(mCount);
                             co++;
                             mCount = Integer.toString(co);
 
+                            SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(CheckEmail.this);
+                            SharedPreferences.Editor editor = preferences.edit();
+                            editor.putString("userUid", user.getUid() + "");
+                            editor.putString("userClass", mClass);
+                            editor.putString("userNumber", mCount);
+                            editor.apply();
+
                             mRef.child("Schools").child(mClass).child(mCount).child("Profile").child("Name").setValue(name);
                             mRef.child("Schools").child(mClass).child(mCount).child("Profile").child("Email").setValue(email);
+                            mRef.child("Schools").child(mClass).child(mCount).child("Profile").child("Class").setValue(mClass);
                             mRef.child("Schools").child(mClass).child(mCount).child("Uid").setValue(user.getUid() + "");
                             mRef.child("Schools").child(mClass).child("counterOfUsers").setValue(mCount);
 
@@ -236,19 +239,21 @@ public class CheckEmail extends AppCompatActivity {
                 if(user != null) {
                     //Toast.makeText(CheckEmail.this, user.getUid() + "", Toast.LENGTH_SHORT).show();
 
-                    SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(CheckEmail.this);
-                    SharedPreferences.Editor editor = preferences.edit();
-                    editor.putString("userUid", user.getUid() + "");
-
-
                     String mCount = dataSnapshot.child("Schools").child(mClass).child("counterOfUsers").getValue(String.class);
                     assert mCount != null;
                     int co = Integer.parseInt(mCount);
                     co++;
                     mCount = Integer.toString(co);
 
+                    SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(CheckEmail.this);
+                    SharedPreferences.Editor editor = preferences.edit();
+                    editor.putString("userClass", mClass);
+                    editor.putString("userNumber", mCount);
+                    editor.putString("userUid", user.getUid() + "");
+
                     mRef.child("Schools").child(mClass).child(mCount).child("Profile").child("Name").setValue(name);
                     mRef.child("Schools").child(mClass).child(mCount).child("Profile").child("Email").setValue(email);
+                    mRef.child("Schools").child(mClass).child(mCount).child("Profile").child("Class").setValue(mClass);
                     mRef.child("Schools").child(mClass).child(mCount).child("Uid").setValue(user.getUid() + "");
                     mRef.child("Schools").child(mClass).child("counterOfUsers").setValue(mCount);
 
@@ -280,51 +285,6 @@ public class CheckEmail extends AppCompatActivity {
                 alert.show();
             }
         });
-
-        mAuthStateListener = new FirebaseAuth.AuthStateListener() {
-            @Override
-            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                final FirebaseUser user = firebaseAuth.getCurrentUser();
-                if (user != null) {
-                    // sing in
-                    Intent intent = new Intent(CheckEmail.this, MainActivity.class);
-                    startActivity(intent);
-
-                    mRef.addListenerForSingleValueEvent(new ValueEventListener() {
-                        @RequiresApi(api = Build.VERSION_CODES.KITKAT)
-                        @Override
-                        public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                            Toast.makeText(CheckEmail.this, user.getUid() + "", Toast.LENGTH_SHORT).show();
-
-                            mRef.child(user.getUid()).child("Profile").child("Name").setValue(name);
-                            mRef.child(user.getUid()).child("Profile").child("Email").setValue(email);
-
-
-
-                        }
-
-                        @RequiresApi(api = Build.VERSION_CODES.KITKAT)
-                        @Override
-                        public void onCancelled(@NonNull DatabaseError databaseError) {
-                            AlertDialog.Builder builder = new AlertDialog.Builder(CheckEmail.this);
-                            builder.setTitle("Error")
-                                    .setMessage(databaseError.getMessage())
-                                    .setCancelable(false)
-                                    .setNegativeButton("Ок, закрыть",
-                                            new DialogInterface.OnClickListener() {
-                                                public void onClick(DialogInterface dialog, int id) {
-                                                    dialog.cancel();
-                                                }
-                                            });
-                            AlertDialog alert = builder.create();
-                            alert.show();
-                        }
-                    });
-                } else {
-                    // sing out
-                }
-            }
-        };
     }
 
     private void addUser(){

@@ -1157,6 +1157,7 @@ id bestUsers
 id blocking
 id booksListView2
 id bottom
+id button
 id buttonChooseBook
 id buttonPanel
 id cancel_action
@@ -1212,6 +1213,7 @@ id expand_activities_button
 id expanded_menu
 id fab
 id feedback
+id fffdf
 id fill
 id fill_horizontal
 id fill_vertical
@@ -1255,6 +1257,7 @@ id list
 id listMode
 id listText
 id list_item
+id lll
 id login
 id mDate
 id masked
@@ -1313,6 +1316,10 @@ id progress_circular
 id progress_horizontal
 id question1
 id radio
+id radioButton
+id radioButton2
+id radioButton3
+id radioButton4
 id registration
 id right
 id right_icon
@@ -1357,6 +1364,7 @@ id snapMargins
 id spacer
 id spinnerClass
 id spinnerSubject
+id spinnerSubjectInBattles
 id split_action_bar
 id spread
 id spread_inside
@@ -1383,6 +1391,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
+id textView2
 id textView3
 id textView5
 id textView6
@@ -1500,6 +1509,7 @@ layout fragment_settings
 layout fragment_storage
 layout fragment_tasks
 layout fragment_test
+layout fragment_test_for_users
 layout fragment_test_questions
 layout fragment_top
 layout fragment_work_room

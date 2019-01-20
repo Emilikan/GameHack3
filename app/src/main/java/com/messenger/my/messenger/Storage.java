@@ -82,6 +82,8 @@ public class Storage extends Fragment {
             }
         });
 
+        updateUI();
+
         comeBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

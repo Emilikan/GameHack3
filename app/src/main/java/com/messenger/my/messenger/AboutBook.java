@@ -133,41 +133,6 @@ public class AboutBook extends Fragment {
 
                             final DatabaseReference mRef = FirebaseDatabase.getInstance().getReference();
 
-                            // устанавливаем большее значение в топе загрузок
-                            mRef.addListenerForSingleValueEvent(new ValueEventListener() {
-                                @Override
-                                public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                                    String dbCounter = dataSnapshot.child("Books").child(contFrag).child("TopDownloads").getValue(String.class);
-                                    assert dbCounter != null;
-                                    int intCounter = Integer.parseInt(dbCounter);
-                                    intCounter++;
-                                    String stringCounter = Integer.toString(intCounter);
-                                    mRef.child("Books").child(contFrag).child("TopDownloads").setValue(stringCounter);
-                                }
-
-                                @Override
-                                public void onCancelled(@NonNull DatabaseError databaseError) {
-                                    AlertDialog.Builder ad;
-                                    ad = new AlertDialog.Builder(context);
-                                    ad.setTitle("Error");  // заголовок
-                                    ad.setMessage("Ошибка: " + databaseError.getMessage() + "\n Проблемы на серверной части. Можете сообщить в службу поддержки"); // сообщение
-                                    ad.setPositiveButton("Служба поддержки", new DialogInterface.OnClickListener() {
-                                        public void onClick(DialogInterface dialog, int arg1) {
-                                            Fragment fragment = new Send();
-                                            FragmentManager fragmentManager = Objects.requireNonNull(getActivity()).getSupportFragmentManager();
-                                            fragmentManager.beginTransaction().replace(R.id.container, fragment).commit();
-                                        }
-                                    });
-                                    ad.setNegativeButton("Закрыть", new DialogInterface.OnClickListener() {
-                                        public void onClick(DialogInterface dialog, int arg1) {
-                                            dialog.cancel();
-                                        }
-                                    });
-                                    ad.setCancelable(true);
-                                    ad.show();
-                                }
-                            });
-
                             // получаем данные только 1 раз (не следит за изменениями)
                             // это сделано, чтобы не вылетало, когда в бд добавляются книги
                             mRef.addListenerForSingleValueEvent(new ValueEventListener() {
