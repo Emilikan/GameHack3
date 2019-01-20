@@ -99,13 +99,15 @@ public class TestQuestions extends Fragment {
                         if (counterOfQuestions == null) {
                             counterOfQuestions = "0";
                         }
+                        int h = Integer.parseInt(counterOfQuestions);
+                        h++;
                         mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("Answer").setValue(answer.getText().toString().trim());
-                        mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).setValue(mName);
+                        mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child("Name").setValue(mName);
                         mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("Description").setValue(question.getText().toString().trim());
                         mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("FalseAnswer1").setValue(falseAnswer1.getText().toString().trim());
                         mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("FalseAnswer2").setValue(falseAnswer2.getText().toString().trim());
                         mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("FalseAnswer3").setValue(falseAnswer3.getText().toString().trim());
-                        mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child("counter").setValue(counterOfQuestions);
+                        mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child("counter").setValue(Integer.toString(h));
                         Toast.makeText(getContext(), "Тест успешно загружен!", Toast.LENGTH_LONG).show();
 
                         Toast.makeText(getContext(),"Тест успешно загружен!", Toast.LENGTH_LONG).show();
@@ -185,13 +187,15 @@ public class TestQuestions extends Fragment {
                                 if (counterOfQuestions == null) {
                                     counterOfQuestions = "0";
                                 }
+                                int h = Integer.parseInt(counterOfQuestions);
+                                h++;
                                 mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("Answer").setValue(answer.getText().toString().trim());
-                                mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).setValue(mName);
+                                mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child("Name").setValue(mName);
                                 mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("Description").setValue(question.getText().toString().trim());
                                 mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("FalseAnswer1").setValue(falseAnswer1.getText().toString().trim());
                                 mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("FalseAnswer2").setValue(falseAnswer2.getText().toString().trim());
                                 mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("FalseAnswer3").setValue(falseAnswer3.getText().toString().trim());
-                                mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child("counter").setValue(counterOfQuestions);
+                                mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child("counter").setValue(Integer.toString(h));
                                 Toast.makeText(getContext(), "Тест успешно загружен!", Toast.LENGTH_LONG).show();
 
                                 Fragment fragment = new TestQuestions();
