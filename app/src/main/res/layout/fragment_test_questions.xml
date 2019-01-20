@@ -134,7 +134,7 @@
     android:textSize="16sp" />
 
     <Button
-        android:id="@+id/new_test"
+        android:id="@+id/next_test"
         android:layout_width="66dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="300dp"

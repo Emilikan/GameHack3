@@ -1279,7 +1279,6 @@ id navigation
 id navigation_dashboard
 id navigation_header_container
 id never
-id new_test
 id next_test
 id none
 id normal
