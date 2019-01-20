@@ -5,24 +5,24 @@
     build-mode="COLD"
     density="xxhdpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
+    ir-eligibility="IMPLEMENTED_INTERFACES_CHANGE"
     plugin-version="3.2.1"
-    timestamp="1547998210711"
+    timestamp="1547999342230"
     token="-5554117966877168892"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1108" />
+        duration="578" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="197" />
+        duration="93" />
     <task
         name="verifier"
-        duration="37" />
+        duration="2" />
 
     <artifact
         location="/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
@@ -78,9 +78,6 @@
         timestamp="1547997956651"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-            type="SPLIT" />
-        <artifact
             location="/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
@@ -110,8 +107,17 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1547998210711"
+        ir-eligibility="FIELD_ADDED"
+        timestamp="1547998943863"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="IMPLEMENTED_INTERFACES_CHANGE"
+        timestamp="1547999342230"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/xacker/Документы/AndroidStudio Projects/Messenger/app/build/intermediates/split-apk/debug/slices/slice_7.apk"

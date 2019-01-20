@@ -99,13 +99,13 @@ public class TestQuestions extends Fragment {
                         if (counterOfQuestions == null) {
                             counterOfQuestions = "0";
                         }
-                        mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("Answer").setValue(answer);
+                        mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("Answer").setValue(answer.getText().toString().trim());
                         mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).setValue(mName);
-                        mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("Description").setValue(question);
-                        mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("FalseAnswer1").setValue(falseAnswer1);
-                        mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("FalseAnswer2").setValue(falseAnswer2);
-                        mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("FalseAnswer3").setValue(falseAnswer3);
-                        mRef.child("counterOfBook").child("counterOfTests").child("counter").setValue(counterOfQuestions);
+                        mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("Description").setValue(question.getText().toString().trim());
+                        mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("FalseAnswer1").setValue(falseAnswer1.getText().toString().trim());
+                        mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("FalseAnswer2").setValue(falseAnswer2.getText().toString().trim());
+                        mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("FalseAnswer3").setValue(falseAnswer3.getText().toString().trim());
+                        mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child("counter").setValue(counterOfQuestions);
                         Toast.makeText(getContext(), "Тест успешно загружен!", Toast.LENGTH_LONG).show();
 
                         Toast.makeText(getContext(),"Тест успешно загружен!", Toast.LENGTH_LONG).show();
@@ -155,16 +155,6 @@ public class TestQuestions extends Fragment {
                 }
 
                 mName = rootView.findViewById(R.id.name);
-
-                Button button = rootView.findViewById(R.id.next_test);
-                button.setOnClickListener(new View.OnClickListener() {
-                    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
-                    @Override
-                    public void onClick(View v) {
-
-
-
-
                         // объявляем переменную
                         final DatabaseReference mRef = FirebaseDatabase.getInstance().getReference();
 
@@ -178,6 +168,7 @@ public class TestQuestions extends Fragment {
                                 String count_of_tests = preferences.getString("counterOfTests", null);
                                 if (count_of_tests == null) {
                                     counterOfTests = dataSnapshot.child("Books").child(counterOfFragment).child("Tests").child("counter").getValue(String.class);
+                                    assert counterOfTests != null;
                                     Integer var = Integer.parseInt(counterOfTests);
                                     var++;
                                     counterOfTests = Integer.toString(var);
@@ -189,17 +180,18 @@ public class TestQuestions extends Fragment {
                                 editor.putString("counterOfTests", counterOfTests);
                                 editor.apply();
 
+                                Toast.makeText(getContext(), counterOfFragment, Toast.LENGTH_SHORT).show();
                                 String counterOfQuestions = dataSnapshot.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child("counter").getValue(String.class);
                                 if (counterOfQuestions == null) {
                                     counterOfQuestions = "0";
                                 }
-                                mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("Answer").setValue(answer);
+                                mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("Answer").setValue(answer.getText().toString().trim());
                                 mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).setValue(mName);
-                                mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("Description").setValue(question);
-                                mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("FalseAnswer1").setValue(falseAnswer1);
-                                mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("FalseAnswer2").setValue(falseAnswer2);
-                                mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("FalseAnswer3").setValue(falseAnswer3);
-                                mRef.child("counterOfBook").child("counterOfTests").child("counter").setValue(counterOfQuestions);
+                                mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("Description").setValue(question.getText().toString().trim());
+                                mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("FalseAnswer1").setValue(falseAnswer1.getText().toString().trim());
+                                mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("FalseAnswer2").setValue(falseAnswer2.getText().toString().trim());
+                                mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child(counterOfQuestions).child("FalseAnswer3").setValue(falseAnswer3.getText().toString().trim());
+                                mRef.child("Books").child(counterOfFragment).child("Tests").child(counterOfTests).child("counter").setValue(counterOfQuestions);
                                 Toast.makeText(getContext(), "Тест успешно загружен!", Toast.LENGTH_LONG).show();
 
                                 Fragment fragment = new TestQuestions();
@@ -223,8 +215,7 @@ public class TestQuestions extends Fragment {
                                                 });
                                 AlertDialog alert = builder.create();
                                 alert.show();
-                            }
-                        });
+
                     }
                 });
             }
